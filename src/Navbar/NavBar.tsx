@@ -7,8 +7,8 @@ const Navbar = () => {
     <div className="Navbar">
       <span className="nav-logo">INSTAX FILM PRINTS</span>
       <div className={`nav-items ${isOpen && "open"}`}>
-        <a href="/home">Home</a>
-        <a href="/about">About</a>
+        <a href="/Home">Home</a>
+        <a href="/About">About</a>
         <a href="/SpecialOffers">Special Offers</a>
         <a href="/Location">Location</a>
         <a href="/Guidelines">Guidelines</a>

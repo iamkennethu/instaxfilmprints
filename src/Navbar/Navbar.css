@@ -45,6 +45,13 @@
   display: none;
 }
 
+.Home-btns{
+  display: flex;
+  margin-top: 40px;
+  margin-left: 40%;
+}
+
+
 @media (max-width: 700px) {
   .Navbar > .nav-items {
     position: absolute;
