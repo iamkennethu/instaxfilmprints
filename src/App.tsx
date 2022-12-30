@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
-import Navbar from './Navbar/NavBar';
+import Navbar from './navbar/NavBar';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import  { HomePage }  from './components/Home';
+import   Home   from './components/Home';
 import About from './components/About';
 import SpecialOffers from './components/SpecialOffers';
 import Location from './components/Location';
@@ -16,7 +16,7 @@ function App() {
       <Navbar/>
     <BrowserRouter>
     <Routes>
-      <Route path='/Home' element={<HomePage />}/>
+      <Route path='/Home' element={<Home />}/>
       <Route path='/About' element={<About />}/>
       <Route path='/SpecialOffers' element={<SpecialOffers />}/>
       <Route path='/Location' element={<Location />}/>
