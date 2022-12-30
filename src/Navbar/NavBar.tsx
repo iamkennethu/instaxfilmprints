@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./Navbar.css";
-import IFPLogo from './images/IFP Logo.png'
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
