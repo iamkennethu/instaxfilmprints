@@ -44,9 +44,50 @@
 
 
 @media (max-width: 700px) {
-    .nav-toggle{
+.NavBar > .nav-items {
+    position: absolute;
+    top: 60px;
+    display: flex;
+    flex-direction: column;
+    background: #3b4da7;
+    left: 0;
+    width: 100%;
+}
+
+.NavBar > .nav-toggle{
     display: flex;
     width: 50px;
     height: 50px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
 }
+
+.nav-toggle > .bar {
+    position: relative;
+    width: 32px;
+    height: 2px;
+    background: #ffffff;
+}
+
+.nav-toggle > .bar::before , .nav-toggle > .bar::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    background: #ffffff;
+    border-radius: 2px;
+    transition: all .45s ease-in-out;
+}
+
+.nav-toggle > .bar::before {
+    width: 25px;
+    transform: translateY(-8px);
+    right: 0;
+}
+
+.nav-toggle > .bar::after {
+    width: 32px;
+    transform: translateY(8px);
+}
+
 }
