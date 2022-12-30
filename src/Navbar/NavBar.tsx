@@ -9,10 +9,10 @@ const Navbar = () => {
       <div className={`nav-items ${isOpen && "open"}`}>
         <a href="/home">Home</a>
         <a href="/about">About</a>
-        <a href="/service">Special Offers</a>
-        <a href="/contact">Location</a>
-        <a href="/contact">Guidelines</a>
-        <a href="/contact">FAQs</a>
+        <a href="/SpecialOffers">Special Offers</a>
+        <a href="/Location">Location</a>
+        <a href="/Guidelines">Guidelines</a>
+        <a href="/FAQs">FAQs</a>
       </div>
       <div
         className={`nav-toggle ${isOpen && "open"}`}
