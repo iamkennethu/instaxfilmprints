@@ -8,6 +8,7 @@ import SpecialOffers from './components/SpecialOffers';
 import Location from './components/Location';
 import Guidelines from './components/Guidelines';
 import FAQs from './components/FAQs';
+import Inquire from './components/Inquire';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <Route path='/Location' element={<Location />}/>
       <Route path='/Guidelines' element={<Guidelines />}/>
       <Route path='/FAQs' element={<FAQs />}/>
+      <Route path='/Inquire' element={<Inquire />}/>
     </Routes>
     </BrowserRouter>
     </div>
