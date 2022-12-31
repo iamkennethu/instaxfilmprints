@@ -1,27 +1,39 @@
-import React, { useState } from "react";
-import "./Navbar.css";
+import React, {useState} from "react";
+import logo from '../images/IFP Logo.png'
 
-const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false);
-  return (
-    <div className="Navbar">
-      <span className="nav-logo">INSTAX FILM PRINTS</span>
-      <div className={`nav-items ${isOpen && "open"}`}>
-        <a href="/Home">Home</a>
-        <a href="/About">About</a>
-        <a href="/SpecialOffers">Special Offers</a>
-        <a href="/Location">Location</a>
-        <a href="/Guidelines">Guidelines</a>
-        <a href="/FAQs">FAQs</a>
-      </div>
-      <div
-        className={`nav-toggle ${isOpen && "open"}`}
-        onClick={() => setIsOpen(!isOpen)}
-      >
-        <div className="bar"></div>
-      </div>
-    </div>
-  );
-};
+function NavBar(){
+    const [nav,setnav] = useState(false);
 
-export default Navbar;
+    const changeBackground = () => {
+        if (window.scrollY >= 50) {
+            setnav(true);
+        }
+        else {
+            setnav(false);
+        }
+
+    }
+    window.addEventListener('scroll',changeBackground);
+
+    return (
+        <nav className={nav ? "nav active" :"nav"}>
+            <a href="Home"> <img src={logo} alt=''/>
+            </a>
+            <input className='menu-btn' type='checkbox' id='menu-btn'/>
+            <label className='menu-icon' htmlFor='menu-btn'>
+                <span className='nav-icon'></span>
+            </label>
+            <ul className='menu'>
+                <li><a href="/Home">Home</a></li>
+                <li><a href="/About">About</a></li>
+                <li><a href="/SpecialOffer">Special Offer</a></li>
+                <li><a href="/Location">Location</a></li>
+                <li><a href="/Guidelines">Guidelines</a></li>
+                <li><a href="/FAQs">FAQs</a></li>
+            </ul>
+        </nav>
+    )
+
+}
+
+export default NavBar;

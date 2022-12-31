@@ -1,12 +1,13 @@
+import NavBar from "../navbar/Navbar";
 
 
 function FAQs() {
-    return (
-        <div>
-            <h1>FAQs Page</h1>
-        </div>
+  return (
+      <>
+        <NavBar/>
+      </>
 
-    )
+  )
 }
 
 export default FAQs;

@@ -1,12 +1,13 @@
+import NavBar from "../navbar/Navbar";
 
 
 function SpecialOffers() {
-    return (
-        <div>
-            <h1> SpecialOffers Page</h1>
-        </div>
+  return (
+      <>
+        <NavBar/>
+      </>
 
-    )
+  )
 }
 
 export default SpecialOffers;

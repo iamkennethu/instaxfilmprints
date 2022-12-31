@@ -1,12 +1,13 @@
+import NavBar from "../navbar/Navbar";
 
 
 function Location() {
-    return (
-        <div>
-            <h1>Location Page </h1>
-        </div>
+  return (
+      <>
+        <NavBar/>
+      </>
 
-    )
+  )
 }
 
 export default Location;
