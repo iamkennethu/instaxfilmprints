@@ -1,12 +1,13 @@
-import React from 'react';
-import adv from '../videos/adv.mp4';
+import NavBar from "../navbar/Navbar";
 
-function Main() {
+
+function Home() {
   return (
-    <div className='main'>
-    <video src={adv} autoPlay loop muted/>
-    </div>
-  );
+      <>
+        <NavBar/>
+      </>
+
+  )
 }
 
-export default Main;
+export default Home;
