@@ -1,13 +1,12 @@
-import NavBar from "../navbar/Navbar";
+import React from 'react';
+import videoBg from '../assets/videoBg.mp4';
 
-
-function HomePage() {
+function Home() {
   return (
-      <>
-        <NavBar/>
-      </>
-
+    <div className='videoBg'>
+      <video src={videoBg} autoPlay loop muted></video>
+    </div>
   )
 }
 
-export default HomePage;
+export default Home;
