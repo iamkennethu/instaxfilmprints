@@ -1,12 +1,12 @@
 import React from 'react';
-import videoBg from '../assets/videoBg.mp4';
+import adv from "./videos/adv.mp4';
 
-function Home() {
+const Main = () => {
   return (
-    <div className='videoBg'>
-      <video src={videoBg} autoPlay loop muted></video>
+    <div className='Main'>
+      <video src={adv} autoPlay loop muted></video>
     </div>
   )
 }
 
-export default Home;
+export default Main;
