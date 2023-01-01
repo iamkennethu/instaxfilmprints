@@ -6,10 +6,6 @@ function Home() {
     <div className='bg-video'>
       <video loop autoPlay muted id='bg-video'>
         <source src={require('../videos/videoBg.mp4')} type='video/mp4'/></video>
-        <div className='content'>
-          <h5>WELCOME TO</h5>
-          <h1>INSTAX FILM PRINTS</h1>
-        </div>
     </div>
   )
 }
