@@ -5,8 +5,11 @@ function Home() {
   return (
     <div className='bg-video'>
       <video loop autoPlay muted id='bg-video'>
-        <source src={require('../videos/videoBg.mp4')} type='video/mp4'/>
-      </video>
+        <source src={require('../videos/videoBg.mp4')} type='video/mp4'/></video>
+        <div className='content'>
+          <p>WELCOME TO</p>
+          <h1>INSTAX FILM PRINTS</h1>
+        </div>
     </div>
   )
 }
