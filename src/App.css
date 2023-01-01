@@ -21,11 +21,11 @@
 
 .background-image {
     width:100%;
-    height:760px;
-    position: fixed;
+    height:100%;
+    position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(https://www.linkpicture.com/q/Website-Home-V.jpg);
+    background-image: url(./images/Website\ Home\ II.jpg);
     position: absolute;
     z-index: 0;
 }
