@@ -22,10 +22,10 @@
 .background-image {
     width:100%;
     height:100%;
-    position: center;
+    position: absolute;
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url(./images/Website\ Home\ II.jpg);
-    position: absolute;
+    position: center;
     z-index: 0;
 }
