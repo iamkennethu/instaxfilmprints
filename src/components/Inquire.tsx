@@ -1,11 +1,9 @@
-import NavBar from "../navbar/Navbar";
-
 
 function Inquire() {
   return (
-      <>
-        <NavBar/>
-      </>
+      <div>
+        Hello
+      </div>
 
   )
 }

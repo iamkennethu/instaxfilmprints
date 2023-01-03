@@ -23,6 +23,7 @@ export default function App() {
         color="#40cee2">
         </Marker>
       </Map>
+
     </div>
   );
 }
