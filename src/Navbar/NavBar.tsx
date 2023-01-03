@@ -17,14 +17,14 @@ function NavBar(){
 
     return (
         <nav className={nav ? "nav active" :"nav"}>
-            <a href="Home"> <img src={logo} alt=''/>
+            <a href="/"> <img src={logo} alt=''/>
             </a>
             <input className='menu-btn' type='checkbox' id='menu-btn'/>
             <label className='menu-icon' htmlFor='menu-btn'>
                 <span className='nav-icon'></span>
             </label>
             <ul className='menu'>
-                <li><a href="/Home">Home</a></li>
+                <li><a href="/">Home</a></li>
                 <li><a href="/About">About</a></li>
                 <li><a href="/SpecialOffer">Special Offer</a></li>
                 <li><a href="/Location">Location</a></li>

@@ -6,7 +6,7 @@ function Home() {
     <div className='bg-video'>
       <video loop autoPlay muted id='bg-video'>
       <source src={require('../videos/videoBg.mp4')} type='video/mp4'/></video>
-        <div className="background-image">
+        <div className="fpage">
         </div>
     </div>
 

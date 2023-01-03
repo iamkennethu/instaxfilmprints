@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@500&family=Open+Sans:wght@300;600&family=Roboto:ital,wght@0,300;0,500;1,100&display=swap');
 
-body{
+/* body{
     margin:0px;
     padding: 0px;
-    background-color: #000000;
+    background-color: #ffffff;
     font-family: 'Lato', sans-serif;
-}
+} */
 *{
     box-sizing: border-box;
 }
@@ -26,7 +26,7 @@ input{
 .logo img{
     width: 260px;
 }
-#main{
+/* #main{
     width:100%;
     height:768px;
     position: relative;
@@ -48,7 +48,7 @@ input{
     width: 100%;
     height: 100%;
     z-index: -1;
-}
+} */
 nav{
 	display: flex;
 	justify-content: space-around;
@@ -141,28 +141,28 @@ nav .menu-btn,
 	letter-spacing: 2px;
 	color:#ffffff;
 }
-.home-btns{
+.header-btns{
     display: flex;
-    margin-top: 40px;
-    margin-left: 40%;
+    /* margin-top: 40px;
+    margin-left: 40%; */
 }
-.home-btn{
+.header-btn{
 	width:160px;
 	height: 50px;
 	display: flex;
 	justify-content: center;
     align-items: center;
     font-size: 1.4rem;
-    background-color: #ffc450;
-    box-shadow: 5px 10px 30px rgba(255, 2, 2, 0.336);
+    background-color: transparent;
     border-radius: 5px;
 	color:#ffffff;
+    border: 2px solid #ffffff;
 }
-.home-btn:hover{
-	background-color: transparent;
+.header-btn:hover{
+	background-color: #ffc550b1;
     transition: all ease 0.5s;
     color: #ffffff;
-    border: 2px solid #FF1414;
+    border: 2px solid #ffffff;
 }
 
 .map-container {
@@ -170,7 +170,7 @@ nav .menu-btn,
     height: 100vh;
 }
 
-#features{
+/* #features{
     width:100%;
     height:120vh;
     box-sizing: border-box;
@@ -185,7 +185,7 @@ nav .menu-btn,
 #features h1{
     color: #fff;
     font-size: 3rem;
-}
+} */
 .a-container{
     display: flex;
     justify-content: center;
@@ -253,7 +253,7 @@ nav .menu-btn,
 .a-b-text a{
     margin-top:15px ;
 }
-#presentaion{
+/* #presentaion{
     padding-top: 30px;
     width:100%;
     height:768px;
@@ -312,9 +312,9 @@ nav .menu-btn,
     transition: all ease 0.5s;
     color: #ffffff;
     border: 2px solid #FF1414;
-}
+} */
 
-#about{
+/* #about{
     margin-top:100px ;
 	width:100%;
 	height: 120vh;
@@ -365,7 +365,7 @@ nav .menu-btn,
 }
 .about-image img{
   width: 600px;
-}
+} */
 
 #contact{
     width:100%;
@@ -414,10 +414,10 @@ nav .menu-btn,
 }
 
 @media(max-width:1190px){
-	#main{
+	/* #main{
 		background-size: 1150px !important;
 		
-	}
+	} */
 	.name{
 		left: 50%;
 		top: 50%;
@@ -469,9 +469,9 @@ nav .menu-btn,
 }
 
 @media(max-width:1280px){
-	#main{
+	/* #main{
 		height: 720px;
-	}
+	} */
 	.name{
 		left: 50%;
 		top: 50%;
@@ -485,10 +485,10 @@ nav .menu-btn,
 	.about-image{
         display:none;
     }
-    .home-btn{
+    /* .header-btn{
         margin-left: 20%;
         margin-top: 20px;
-    }
+    } */
     .pr-btn{
         margin-left: 20%;
         margin-top: 20px;
@@ -532,9 +532,9 @@ nav .menu-btn,
         .logo img{
             width:230px;
         }
-        .home-btns{
+        /* .header-btns{
             margin: 0;
-        }
+        } */
         .pr-btns{
             margin: 0;
         }
@@ -615,3 +615,23 @@ nav .menu-btn,
                 height:400px;
             }
         }
+
+    .Footer{
+    background-color: #00e5ff;
+    text-align: center;
+    height: 330px;
+	width: 100%;
+    object-fit: cover;
+    position: center;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    font-family: 'Montserrat';
+    }
+    #Footer h1{
+        color: #fff;
+        font-size: 3rem;
+    }
+    #Footer h4{
+        color: #fff;
+    }

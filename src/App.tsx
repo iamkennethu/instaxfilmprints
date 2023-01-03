@@ -9,6 +9,7 @@ import Location from './components/Location';
 import Guidelines from './components/Guidelines';
 import FAQs from './components/FAQs';
 import Inquire from './components/Inquire';
+import Footer from './footer/NavFooter';
 
 
 function App() {
@@ -18,7 +19,6 @@ function App() {
     <BrowserRouter>
     <Routes>
     <Route path='/' element={<Home />}/>
-      <Route path='/Home' element={<Home />}/>
       <Route path='/About' element={<About />}/>
       <Route path='/SpecialOffers' element={<SpecialOffers />}/>
       <Route path='/Location' element={<Location />}/>
@@ -27,6 +27,7 @@ function App() {
       <Route path='/Inquire' element={<Inquire />}/>
     </Routes>
     </BrowserRouter>
+      <Footer/>
     </div>
   );
 }
