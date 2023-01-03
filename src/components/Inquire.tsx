@@ -2,7 +2,6 @@
 function Inquire() {
   return (
       <div>
-        Hello
       </div>
 
   )

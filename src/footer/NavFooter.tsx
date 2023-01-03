@@ -11,7 +11,7 @@ function Footer() {
         <div className='header-btns'>
         <a href='/Inquire' className='header-btn'> INQUIRE</a>
         </div>
-        <h5> © 2022 INSTAX FILM PRINTS PH | ALL RIGHT RESERVED </h5>
+        <h5> © 2022 INSTAX FILM PRINTS PH | ALL RIGHT RESERVED</h5>
     </div>
     </div>
 
