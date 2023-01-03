@@ -574,10 +574,10 @@ nav .menu-btn,
         nav .menu-icon .nav-icon{
             background-color:#ffffff;
             display:block;
-            height:2px;
+            height:1.5px;
             position:relative;
             transition: background 0.2s ease-out;
-            width:24px;
+            width:20px;
         }
         nav .menu-icon .nav-icon:before,
         nav .menu-icon .nav-icon:after{
