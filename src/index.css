@@ -647,3 +647,9 @@ nav .menu-btn,
         color: #fff;
         font-family: 'Cardo', serif;
     }
+    #Footer h5{
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+        line-height: 180px;
+        font-weight: 400;
+    }
