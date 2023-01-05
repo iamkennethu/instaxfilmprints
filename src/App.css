@@ -20,27 +20,12 @@
 }
 
 .fpage {
-    object-fit: cover;
     width:100%;
     height: 800px;
-    display: grid;
-    grid-template-columns: 100%;
-    position: center;
+    position: relative;
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url(./images/Website\ Home\ II.jpg);
-    top: 0;
-    left: 0;
     z-index: 0;
     
-}
-
-.fpage::before{
-  position: absolute;
-  content: "";
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
 }
