@@ -11,7 +11,6 @@ import FAQs from './components/FAQs';
 import Inquire from './components/Inquire';
 import Footer from './footer/NavFooter';
 
-
 function App() {
   return (
     <div className='App'>
