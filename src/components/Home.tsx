@@ -11,7 +11,9 @@ function Home() {
       <source src={require('../videos/videoBg.mp4')} type='video/mp4'/></video>
         <div className='fpage'>
           {/* <img src={fpage} alt="WebpageI" /> */}
-        <a href="/Guidelines"> <img src={Sample1} alt=''/></a><a href="/Guidelines"> <img src={Sample1} alt=''/></a><a href="/Guidelines"> <img src={Sample1} alt=''/></a>
+        <a href="/Guidelines"> <img src={Sample1} alt=''/> </a>
+        <a href="/Guidelines"> <img src={Sample1} alt=''/></a>
+        <a href="/Guidelines"> <img src={Sample1} alt=''/></a>
         </div>
         </div>
     </div>
