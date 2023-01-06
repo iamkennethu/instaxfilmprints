@@ -24,8 +24,9 @@
     height: 800px;
     position: relative;
     background-repeat: no-repeat;
-    background-size: cover;
     background-image: url(./images/Website\ Home\ II.jpg);
+    background-size: cover;
+    background-position-x: relative;
     z-index: 0;
     
 }
