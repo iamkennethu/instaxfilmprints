@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Roboto:wght@400;500;900&display');
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Roboto:wght@300;400;500;900&display');
 
 /* body{
     margin:0px;
@@ -624,7 +624,6 @@ nav .menu-btn,
     .Footer{
     background-color: #1a1b1d;
     text-align: center;
-    height: 420px;
     object-fit: cover;
     position: center;
     top: 20px;
@@ -653,6 +652,7 @@ nav .menu-btn,
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
         margin-top: 35px;
+        line-height: 50px;
     }
     #Footer h4{
         color: #fff;
