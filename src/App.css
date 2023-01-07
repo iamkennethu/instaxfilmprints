@@ -34,7 +34,7 @@
     background-repeat: no-repeat;
     background-position-x: center;
     line-height: auto;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .fPage h1 {
@@ -42,17 +42,17 @@
   font-family: 'Roboto', sans-serif;
 }
 .fPage h5 {
-  line-height: 200px;
+  line-height: 180px;
   /* margin-top: 100px; */
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
 }
 .fPage p {
-  margin-top: 10px;
-  margin-bottom: 50px;
+  margin-top: 5px;
+  margin-bottom: 40px;
   font-size: large;
 }
 
-fPage2 {
+.fPage2 {
   background-image: url(./images/banner.png);
 }

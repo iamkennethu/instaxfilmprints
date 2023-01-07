@@ -17,9 +17,9 @@ function Home() {
         <a href="/Guidelines"> <img className='fPagePhoto' src={Sample1} alt=''/> </a>
         <a href="/Guidelines"> <img src={Sample1} alt=''/></a>
         <a href="/Guidelines"> <img src={Sample1} alt=''/></a>
+    </div>
+    </div>
         </div>
-        </div>
-     </div>
      
 
 
