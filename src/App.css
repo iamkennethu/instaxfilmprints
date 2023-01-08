@@ -6,11 +6,6 @@
   /* box-sizing: border-box; */
 }
 
-/* .App {
-  background: #d4d4d4;
-  height: 100vh;
-} */
-
 #bg-video {
   width: 100%;
   height: 100%;
@@ -35,15 +30,15 @@
     background-position-x: center;
     margin-bottom: 40px;
 }
-hr {
-
-  border: 10;
+.fPage hr {
+  /* border: 10; */
   margin: auto;
   margin-top: 20px;
   width: 90%;
-  color: #f00;
-  /* background-color: #f00; */
-  height: 6px;
+  /* color: rgb(36, 36, 36); */
+  /* background-color: rgb(36, 36, 36); */
+  height: 10px;
+  border-width: 2px;
 }
 /* div.hr {
   height: 15px;
@@ -73,28 +68,23 @@ div.hr hr {
     background-size: cover;
     background-repeat: no-repeat;
     background-position-x: center;
-    text-align: center;
+
 }
 .fPage2 h1{
-  text-align: right;
-  font-weight: 500;
-  font-size: 30px;
-  margin-right: 390px;
-  line-height: 500px;
-  display: inline-block;
+
 }
 .fPage2 h3{
-  text-align: right;
-  font-weight: 500;
-  font-size: 10px;
-  font-family: 'Roboto', sans-serif;
-  margin-right: 570px;
-  margin-top: -225px;
+
 }
 .fPage2 p{
-  text-align: left;
-  margin-left: 810px;
-  margin-right: 400px;
-  margin-top: 20px;
 
+}
+.fPage2 hr {
+  margin: 0 auto;
+  margin-top: 1px;
+  width: 100%;
+  max-width: 50%;
+  color: rgb(36, 36, 36);
+  background-color: rgb(36, 36, 36);
+  height: 1px;
 }
