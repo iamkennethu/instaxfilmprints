@@ -1,8 +1,10 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React from 'react'
 
 function Home2() {
   return (
     <div className='fPage2'>
+      {/* <img className='fpage' src={webHome2} alt=""/>  */}
         <h1> Meet Ashley Gwen Martin </h1>
         <h3> CREATIVE DIRECTOR & OWNER </h3>
         <p> With over a years of experience in the instax printing 
