@@ -36,7 +36,10 @@
     margin-bottom: 40px;
 }
 hr {
+
   border: 10;
+  margin: auto;
+  margin-top: 20px;
   width: 90%;
   color: #f00;
   /* background-color: #f00; */
@@ -51,11 +54,10 @@ div.hr hr {
 } */
 
 .fPage h1 {
-  margin-top: -50px;
   font-family: 'Roboto', sans-serif;
 }
 .fPage h5 {
-  line-height: 180px;
+  line-height: 100px;
   /* margin-top: 100px; */
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -72,8 +74,6 @@ div.hr hr {
     background-repeat: no-repeat;
     background-position-x: center;
     text-align: center;
-    /* margin-bottom: 40px;
-    height: 720px; */
 }
 .fPage2 h1{
   text-align: right;
@@ -81,6 +81,7 @@ div.hr hr {
   font-size: 30px;
   margin-right: 390px;
   line-height: 500px;
+  display: inline-block;
 }
 .fPage2 h3{
   text-align: right;

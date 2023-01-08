@@ -1,12 +1,11 @@
-/* eslint-disable jsx-a11y/alt-text */
 import React from 'react'
 
 function Home2() {
   return (
     <div className='fPage2'>
-      {/* <img className='fpage' src={webHome2} alt=""/>  */}
         <h1> Meet Ashley Gwen Martin </h1>
         <h3> CREATIVE DIRECTOR & OWNER </h3>
+        <hr />
         <p> With over a years of experience in the instax printing 
             <br/> industry, Ashley Gwen Martin has become 
             <br/> world-renowned for her impeccable taste and 
@@ -17,7 +16,7 @@ function Home2() {
         <p>Ashley Gwen’s touch make every prints incompatable 
             <br/> experience, transcending the expected to reflect the 
             <br/> unique beauty of her client’s memories.</p>
-    </div>
+            </div>
   )
 }
 
