@@ -37,8 +37,8 @@
   width: 90%;
   /* color: rgb(36, 36, 36); */
   /* background-color: rgb(36, 36, 36); */
-  height: 10px;
-  border-width: 2px;
+  height: 6px;
+  border: 1px solid rgb(124, 124, 124);
 }
 /* div.hr {
   height: 15px;
@@ -50,15 +50,16 @@ div.hr hr {
 
 .fPage h1 {
   font-family: 'Roboto', sans-serif;
+  padding-top: 25px;
 }
 .fPage h5 {
-  line-height: 100px;
+  padding-top: 30px;
   /* margin-top: 100px; */
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
 }
 .fPage p {
-  margin-top: 5px;
+  padding-top: 5px;
   margin-bottom: 40px;
   font-size: large;
 }
