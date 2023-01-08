@@ -1,7 +1,7 @@
 import React from 'react';
 // import webHome2 from '../images/webHome2.jpg';
 import Sample1 from '../images/picsamp.png';
-import Page2 from './Home2'
+import Home2 from './Home2'
 
 
 
@@ -23,7 +23,7 @@ function Home() {
       </div>
     </div>
     </div>
-    <Page2 />
+    <Home2 />
     </>
      
 
