@@ -1,35 +1,35 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React, { useEffect } from 'react'
+// import React, { useEffect } from 'react'
 import { IconContext } from 'react-icons/lib'
 import { CiInstagram } from 'react-icons/ci'
-import { IoIosArrowDropupCircle } from 'react-icons/io'
+// import { IoIosArrowDropupCircle } from 'react-icons/io'
 import { RiFacebookBoxFill } from 'react-icons/ri'
 
 
 function Footer() {
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
+  // const scrollToTop = () => {
+  //   window.scrollTo({ top: 0, behavior: 'smooth' });
+  // };
 
-  useEffect(() => {
-    const button = document.querySelector('.scroll-to-top-button');
+  // useEffect(() => {
+  //   const button = document.querySelector('.scroll-to-top-button');
 
-    const handleScroll = () => {
-      if (!button) return;
+  //   const handleScroll = () => {
+  //     if (!button) return;
 
-      if (window.pageYOffset === 0) {
-        button.classList.add('hidden');
-      } else {
-        button.classList.remove('hidden');
-      }
-    };
+  //     if (window.pageYOffset === 0) {
+  //       button.classList.add('hidden');
+  //     } else {
+  //       button.classList.remove('hidden');
+  //     }
+  //   };
 
-    window.addEventListener('scroll', handleScroll);
+  //   window.addEventListener('scroll', handleScroll);
 
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
+  //   return () => {
+  //     window.removeEventListener('scroll', handleScroll);
+  //   };
+  // }, []);
   return (
     <div id='Footer'>
     <div className='Footer'>
@@ -43,7 +43,7 @@ function Footer() {
         <a href="https://www.instagram.com/instaxfilmprints"><CiInstagram/></a><a href="https://web.facebook.com/InstaxFilmPrints.PH"><RiFacebookBoxFill/></a>
         <h4> follow along </h4>
         <h5> © 2022 INSTAX FILM PRINTS PH | ALL RIGHT RESERVED</h5>
-        <a className="scroll-to-top-button" onClick={scrollToTop}><IoIosArrowDropupCircle/></a>
+        {/* <a className="scroll-to-top-button" onClick={scrollToTop}><IoIosArrowDropupCircle/></a> */}
         </IconContext.Provider>
     </div>
     </div>
