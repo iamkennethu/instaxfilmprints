@@ -89,3 +89,97 @@ div.hr hr {
   background-color: rgb(36, 36, 36);
   height: 1px;
 }
+
+.fPage4{
+  background-image: url(./images/webHome4.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  position: relative;
+  height: 700px;
+}
+.fPage4 h1 {
+  text-align: left;
+  color:#ffffff;
+  margin-left: 180px;
+  padding-top: 20px;
+  font-size: 2.7rem;
+}
+.fPage4 h3 {
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  color:#ffffff;
+  font-weight: 900;
+  margin-left: 180px;
+  padding-top: 320px;
+}
+.fPage4 h5 {
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  color:#ffffff;
+  font-weight: 300;
+  font-size: 1.2rem;
+  margin-left: 200px;
+  padding-top: 20px;
+}
+
+@media (max-width: 1000px) {
+  .fPage4 h1 {
+    margin-left: 80px;
+  }
+  .fPage4 h3 {
+    margin-left: 80px;
+  }
+  .fPage4 h5 {
+    margin-left: 80px;
+  }
+}
+@media (max-width: 600px) {
+  .fPage4 {
+    background-position: top;
+  }
+}
+
+.fPage5 {
+  /* width: 100%;
+  height: 100%;
+  object-fit: cover; */
+  background-image: url(./images/webHome2.png);
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  margin-bottom: 40px;
+  position: relative;
+}
+.fPage5 h1 {
+  padding-top: 30px;
+  /* margin-top: 100px; */
+  font-weight: 500;
+}
+.fPage5 li {
+  margin-top: 5px;
+  margin-bottom: 50px;
+	font-size: 500;
+	text-transform: uppercase solid;
+	font-weight: 900 #ffffff;
+	color:#ffffff;
+  /* border-radius: 3px; */
+  /* transition: 0.2s ease-in-out; */
+}
+.fPage5 a {
+  pointer-events: auto;
+}
+.fPage5 hr {
+  margin: auto;
+  margin-top: 4px;
+  width: 20%;
+  /* color: rgb(36, 36, 36);
+  background-color: rgb(36, 36, 36); */
+  height: 0px;
+  border-top: 0px solid black;
+}
+.pImage:hover {
+  /* style for the image when hovered */
+  transform: scale(1.2);
+}

@@ -4,6 +4,8 @@ import picSamp1 from '../images/picSamp1.png';
 import picSamp2 from '../images/picSamp2.png';
 import picSamp3 from '../images/picSamp3.png';
 // import Home2 from './Home2';
+import Home4 from './Home4';
+import Home5 from './Home5';
 
 
 
@@ -19,13 +21,15 @@ function Home() {
           <h1> PRINT IN FILMS <br /> THEY NEVER FADE. </h1>
           <p> Keep your most cherished photos in polaroid films <br /> that nostalgia feels. </p>
           {/* <img className='fpage' src={webHome2} alt=""/>  */}
-          <a href="/Guidelines"> <img src={picSamp1} alt='' /> </a>
-          <a href="/Guidelines"> <img src={picSamp2} alt='' /></a>
-          <a href="/Guidelines"> <img src={picSamp3} alt='' /></a>
+          <a href="/Guidelines"> <img src={picSamp1} alt='' className='pImage'/> </a>
+          <a href="/Guidelines"> <img src={picSamp2} alt='' className='pImage'/></a>
+          <a href="/Guidelines"> <img src={picSamp3} alt='' className='pImage'/></a>
       </div>
     </div>
     </div>
     {/* <Home2 /> */}
+    <Home4 />
+    <Home5 />
     </>
      
 
