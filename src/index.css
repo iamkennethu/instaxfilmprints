@@ -664,3 +664,11 @@ nav .menu-btn,
         color: white;
         padding-top: 80px;
     }
+    .scroll-to-top-button {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+      }
+      .scroll-to-top-button.hidden {
+        display: none;
+      }
