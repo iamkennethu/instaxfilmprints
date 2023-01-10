@@ -1,14 +1,11 @@
-import React from 'react'
+import React from 'react';
+import p2Sample1 from '../images/p2Sample1.png';
 
 function Home2() {
   return (
     <div className='fPage2'>
-        <div className="row">
-          <div className="col">
-            <img src="src\images\p2Sample1.png" alt="" />
-          </div>
-          <div className="fPage2Text">
-          <h1> Meet Ashley Gwen Martin </h1>
+    <img className='fPage2 img' src={p2Sample1} alt=""/>
+    <h1> Meet Ashley Gwen Martin </h1>
           <h3> CREATIVE DIRECTOR & OWNER </h3>
           <hr />
           <p> With over a years of experience in the instax printing 
@@ -22,10 +19,8 @@ function Home2() {
               <br/> experience, transcending the expected to reflect the 
               <br/> unique beauty of her client’s memories.
           </p>
-          </div>
-        </div>
     </div>
-  )
+  );
 }
 
-export default Home2
+export default Home2;
