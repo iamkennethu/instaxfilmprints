@@ -3,7 +3,7 @@ import React from 'react';
 import picSamp1 from '../images/picSamp1.png';
 import picSamp2 from '../images/picSamp2.png';
 import picSamp3 from '../images/picSamp3.png';
-// import Home2 from './Home2';
+import Home2 from './Home2';
 import Home4 from './Home4';
 import Home5 from './Home5';
 
@@ -27,7 +27,7 @@ function Home() {
       </div>
     </div>
     </div>
-    {/* <Home2 /> */}
+    <Home2 />
     <Home4 />
     <Home5 />
     </>

@@ -69,25 +69,32 @@ div.hr hr {
     background-size: cover;
     background-repeat: no-repeat;
     background-position-x: center;
-
+    text-align: center;
+}
+.fPage2Text {
+    text-align: left;
 }
 .fPage2 h1{
+  padding-top: 120px;
+  /* padding-top: 200px; */
+  margin-left: 800px;
 
 }
 .fPage2 h3{
+  margin-left: 800px;
+
 
 }
 .fPage2 p{
+  margin-left: 800px;
 
 }
 .fPage2 hr {
-  margin: 0 auto;
+  margin-left: 800px;
   margin-top: 1px;
-  width: 100%;
-  max-width: 50%;
-  color: rgb(36, 36, 36);
-  background-color: rgb(36, 36, 36);
-  height: 1px;
+  width: 25%;
+  margin-bottom: 10px;
+  
 }
 
 .fPage4{
@@ -132,6 +139,7 @@ div.hr hr {
     margin-left: 80px;
   }
   .fPage4 h5 {
+    margin-top: -10px;
     margin-right: 80px;
   }
 }
