@@ -28,8 +28,8 @@ function NavBar(){
                 <li><a href="/About">About</a></li>
                 <li><a href="/SpecialOffer">Special Offer</a></li>
                 <li><a href="/Location">Location</a></li>
-                <li><a href="/Guidelines">Guidelines</a></li>
-                <li><a href="/FAQs">FAQs</a></li>
+                {/* <li><a href="/Guidelines">Guidelines</a></li> */}
+                {/* <li><a href="/FAQs">FAQs</a></li> */}
                 <li><a href="/Inquire">Inquire</a></li>
             </ul>
         </nav>
