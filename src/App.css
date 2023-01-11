@@ -72,7 +72,6 @@ div.hr hr {
     background: url('./images/webHome3.png') no-repeat center center fixed; 
     background-size: cover;
     /* position: absolute; */
-    height: 720px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -87,27 +86,28 @@ div.hr hr {
   align-content: center;
   height: 100vh;
   margin: 0 auto; */
+  padding-top: 150px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
+  padding-bottom: 150px;
 }
-.fPageTxt{
-  align-self: center;
-}
-.fPage2Txt h1{
+.fPage2Txt{
+  text-align: left;
   margin-left: 100px;
 }
+.fPage2Txt h1{
+margin-bottom: 0px;
+}
 .fPage2Txt h3{
-
+margin-bottom: 10px;
 }
 .fPage2Txt p{
-  /* margin-left: 550px; */
-
+  padding-top: 15px;
 }
 .fPage2Txt hr {
-
 }
 
 .fPage4{

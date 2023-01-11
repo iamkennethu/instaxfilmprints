@@ -6,7 +6,7 @@ const Home2 = () => {
       <div className='fPageBg'>
       <div className='fPageBgStyle'>
           <img src={p2Sample1} alt=''/>
-      <div className='fPageTxt'>
+      <div className='fPage2Txt'>
           <h1> Meet Ashley Gwen Martin </h1>
           <h3> CREATIVE DIRECTOR & OWNER </h3><hr />
           <p> With over a years of experience in the instax printing 
