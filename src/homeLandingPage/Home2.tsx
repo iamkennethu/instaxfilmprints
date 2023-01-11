@@ -19,6 +19,7 @@ const Home2 = () => {
           <p>Ashley Gwen’s touch make every prints incompatable 
               <br/> experience, transcending the expected to reflect the 
               <br/> unique beauty of her client’s memories.
+              <ol><a href="/About" > LEARN MORE </a></ol>
           </p>
       </div>
       </div>

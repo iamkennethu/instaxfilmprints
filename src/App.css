@@ -2,27 +2,16 @@
   margin: 0;
   padding: 0;
   height: fit-content;
-  /* background-position-x: center; */
-  /* box-sizing: border-box; */
+
 }
 
 #bg-video {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  /* object-fit: cover;
-  width: 100%;
-  height: 100%;
-  position: center;
-  top: 0;
-  left: 0;
-  z-index: 0; */
 }
 
 .fPage {
-    /* width: 100%;
-    height: 100%;
-    object-fit: cover; */
     background-image: url(./images/webHome2.png);
     text-align: center;
     background-size: cover;
@@ -31,22 +20,12 @@
     margin-bottom: 40px;
 }
 .fPage hr {
-  /* border: 10; */
   margin: auto;
   margin-top: 20px;
   width: 90%;
-  /* color: rgb(36, 36, 36); */
-  /* background-color: rgb(36, 36, 36); */
   height: 6px;
   border: 1px solid rgb(124, 124, 124);
 }
-/* div.hr {
-  height: 15px;
-  background: #fff url(hr1.gif) no-repeat scroll center;
-}
-div.hr hr {
-  display: none;
-} */
 
 .fPage h1 {
   font-family: 'Roboto', sans-serif;
@@ -54,7 +33,6 @@ div.hr hr {
 }
 .fPage h5 {
   padding-top: 30px;
-  /* margin-top: 100px; */
   font-family: 'Roboto', sans-serif;
   font-weight: 600;
 }
@@ -65,27 +43,17 @@ div.hr hr {
 }
 
 .fPageBg {
-    /* background-image: url('./images/webHome3.png'); */
-    /* background-size: cover; */
     background-repeat: no-repeat;
     background-position-x: center;
     background: url('./images/webHome3.png') no-repeat center center fixed; 
     background-size: cover;
-    /* position: absolute; */
-    display: flex;
+    display: cover;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
     width: 100%;
 }
 .fPageBgStyle{
-  /* display: grid;
-  grid-template-columns: 1fr 3fr;
-  grid-gap: 16px;
-  justify-content: center;
-  align-content: center;
-  height: 100vh;
-  margin: 0 auto; */
   padding-top: 150px;
   display: flex;
   flex-direction: row;
@@ -96,22 +64,43 @@ div.hr hr {
 }
 .fPage2Txt{
   text-align: left;
-  margin-left: 150px;
+  margin-left: 100px;
 }
 .fPage2Txt h1{
-margin-bottom: 0px;
+  margin-bottom: 5px;
 }
 .fPage2Txt h3{
-margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 .fPage2Txt p{
   padding-top: 15px;
 }
-.fPage2Txt hr {
+.fPage2Txt ol{
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 1px;
+  padding-top: 15px;
 }
-@media (max-width: 1000px) {
+.fPage2Txt hr {
+  width: 100%;
+  height: .5px;
+  border: 0;
+  background-color: rgb(0, 0, 0);
+}
+@media (max-width: 800px) {
+  .fPage2Bg{
+    padding-bottom: 80px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .fPageBgStyle{
+    flex-direction: column;
+    align-items: center;
+  }
   .fPage2Txt{
-    margin-left: 50px;
+    padding-top: 20px;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0px;
   }
 }
 
