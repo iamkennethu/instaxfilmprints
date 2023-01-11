@@ -64,28 +64,49 @@ div.hr hr {
   font-size: large;
 }
 
-.fPage2 {
-    background-image: url('./images/webHome3.png');
-    background-size: cover;
+.fPageBg {
+    /* background-image: url('./images/webHome3.png'); */
+    /* background-size: cover; */
     background-repeat: no-repeat;
     background-position-x: center;
+    background: url('./images/webHome3.png') no-repeat center center fixed; 
+    background-size: cover;
+    /* position: absolute; */
+    height: 720px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
 }
-.fPage2 img {
+.fPageBgStyle{
+  /* display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-gap: 16px;
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+  margin: 0 auto; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.fPageTxt{
+  align-self: center;
+}
+.fPage2Txt h1{
+  margin-left: 100px;
+}
+.fPage2Txt h3{
 
 }
-.fPage2 h1{
+.fPage2Txt p{
+  /* margin-left: 550px; */
 
 }
-.fPage2 h3{
-
-
-
-}
-.fPage2 p{
-
-
-}
-.fPage2 hr {
+.fPage2Txt hr {
 
 }
 
@@ -156,6 +177,7 @@ div.hr hr {
 .fPage5 h1 {
   padding-top: 50px;
   /* margin-top: 100px; */
+  font-size: 1.5em;
   font-weight: 500;
 }
 .fPage5 h4 {
@@ -164,28 +186,34 @@ div.hr hr {
     font-family: 'Cardo', serif;
   }
 
-.fPage5 li {
-  margin-top: 10px;
+.fPage5 li{
+  margin-top: 15px;
   margin-bottom: 50px;
-	font-size: 500;
+	font-size: 1em;
 	text-transform: uppercase solid;
 	font-weight: 500;
-	color: black;
   font-family: 'Roboto', sans-serif;
   /* border-radius: 3px; */
   /* transition: 0.2s ease-in-out; */
 }
-.fPage5 a {
+.fPage5 a{
   pointer-events: auto;
+  border-top: 80px;
+  position: relative;
+  color: hsla(0, 0%, 0%, 0.886);
 }
 .fPage5 hr {
   margin: auto;
-  margin-top: 4px;
-  width: 20%;
-  /* color: rgb(36, 36, 36);
-  background-color: rgb(36, 36, 36); */
-  height: 0px;
-  border-top: 0px solid black;
+  width: 16%;
+  height: .5px;
+  border: 0;
+  background-color: rgb(0, 0, 0);
+  margin-bottom: 40px;
+}
+@media (max-width: 800px) {
+  .fPage5 hr {
+    width: 40%;
+  }
 }
 .pImage:hover {
   transform: scale(1.2);
