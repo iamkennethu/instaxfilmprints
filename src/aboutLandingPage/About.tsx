@@ -23,7 +23,7 @@ function About() {
               <br/> transformed countless event spaces for an incredibly 
               <br/> discerning clientele.
           </p>
-              <img src={p2Sample1} alt=''/>
+          <img src={p2Sample1} alt=''/>
     </div>
     </div>
     </div>

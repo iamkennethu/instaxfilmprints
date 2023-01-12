@@ -231,10 +231,11 @@
 
 .aPage {
   background-image: url(./images/webHome2.png);
-  text-align: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position-x: center;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    margin-bottom: 40px;
   
 }
 .aPage hr {
@@ -256,29 +257,11 @@ font-weight: 600;
 }
 
 .aPageBg{
-  background-repeat: no-repeat center center fixed;
-    background-position-x: center;
-    background: url('./images/webHome3.png'); 
-    background-size: cover;
-    display: cover;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    width: 100%;
+  
 }
-
-.aPageBgStyle{
-  padding-top: 150px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto;
-  padding-bottom: 150px;
+.aPageBgStyle {
+  
 }
 .aPageStyle2{
-  text-align: left;
-}
-.aPageStyle2{
-
+  
 }
