@@ -1,5 +1,5 @@
 import React from 'react';
-// import About3 from './About3';
+import About3 from './About3';
 import p2Sample1 from '../images/p2Sample1.png';
 
 function About() {
@@ -43,7 +43,7 @@ function About() {
     </div>
     </div>
     </div>
-    {/* <About3/> */}
+    <About3/>
     </div>
     
   )
