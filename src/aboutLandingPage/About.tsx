@@ -15,6 +15,7 @@ function About() {
     <div className='aPageBg'>
     <div className='aPageBgStyle'>
           <p> <img src={p2Sample1} alt=''/>
+              <h1> We believe that detail-driven <br/> styling establishes the <br/> foundation for magical moments. </h1>
               <br/> With over a years of experience in the instax printing 
               <br/> industry, Ashley Gwen Martin has become 
               <br/> world-renowned for her impeccable taste and 

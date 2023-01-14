@@ -234,7 +234,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position-x: center;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   
 }
 .aPage hr {
@@ -268,18 +268,20 @@ width: 100%;
   
 }
 .aPageBgStyle {
-  padding-top: 150px;
+  padding-top: 50px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
-  padding-bottom: 150px;
-  
+  padding-bottom: 40px;
+  text-align: left;
+}
+.aPageBgStyle img {
+  padding-top: 10px;
 }
 .aPageStyle2 {
-  text-align: left;
-  margin-left: 100px;
+  text-align: right;
 }
 .aPageBg2 {
 background-repeat: no-repeat center center fixed;
@@ -309,6 +311,7 @@ padding-bottom: 150px;
   height: .5px;
   margin-top: 15px;
   margin-bottom: 15px;
+  width: 60%;
 }
 @media (max-width: 800px) {
   .aPageBg2{
