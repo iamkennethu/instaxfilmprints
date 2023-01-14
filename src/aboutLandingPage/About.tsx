@@ -1,4 +1,5 @@
 import React from 'react';
+import About2 from './About2';
 import p2Sample1 from '../images/p2Sample1.png';
 
 function About() {
@@ -13,7 +14,15 @@ function About() {
           <br/> and remarkable denouement </h1>
     <div className='aPageBg'>
     <div className='aPageBgStyle'>
-          <img src={p2Sample1} alt=''/>
+          <p> <img src={p2Sample1} alt=''/>
+              <br/> With over a years of experience in the instax printing 
+              <br/> industry, Ashley Gwen Martin has become 
+              <br/> world-renowned for her impeccable taste and 
+              <br/> trend-setting creative direction. Her remarkable guest 
+              <br/> experience and conceptual printing works have 
+              <br/> transformed countless event spaces for an incredibly 
+              <br/> discerning clientele.
+          </p>
     <div className='aPageStyle2'>
           <p> With over a years of experience in the instax printing 
               <br/> industry, Ashley Gwen Martin has become 
@@ -27,6 +36,7 @@ function About() {
     </div>
     </div>
     </div>
+    <About2/>
     </div>
     
   )
