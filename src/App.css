@@ -282,6 +282,7 @@ width: 100%;
 }
 .aPageStyle2 {
   text-align: right;
+  margin-left: 100px;
 }
 .aPageBg2 {
 background-repeat: no-repeat center center fixed;
@@ -327,3 +328,4 @@ padding-bottom: 150px;
     margin: auto;
   }
 }
+
