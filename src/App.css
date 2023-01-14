@@ -87,7 +87,7 @@
   background-color: rgb(0, 0, 0);
 }
 @media (max-width: 800px) {
-  .fPage2Bg{
+  .fPageBg{
     flex-direction: column;
     align-items: center;
   }
@@ -282,50 +282,102 @@ width: 100%;
 }
 .aPageStyle2 {
   text-align: right;
-  margin-left: 100px;
+  margin-left: 20px;
 }
-.aPageBg2 {
-background-repeat: no-repeat center center fixed;
-background-position-x: center;
-/* background: url('./images/webHome3.png');  */
-background-size: cover;
-display: cover;
-justify-content: center;
-align-items: center;
-margin: 0 auto;
-width: 100%;
+@media (max-width: 800px) {
+  .aPageBg {
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+  }
+  .aPageBgStyle{
+    padding-top: 30px;
+    flex-direction: column;
+    text-align: center;
+  }
+  .aPageStyle2{
+    padding-top: 50px;
+    text-align: center;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  .aPageStyle2 p{
+    /* position: absolute;
+    display: contents;
+    bottom: 0; */
+    padding-top: 480px;
+  }
+  .aPageStyle2 img {
+    padding-top: 30px;
+    position:absolute;
+    /* display: contents; */
+    top: 0;
+  }
 }
-.aPageBgTxt2 {
-padding-top: 150px;
+
+
+
+
+
+
+
+
+
+/* .aPageBg3 {
+  background-repeat: no-repeat center center fixed;
+  background-position-x: center;
+  background-size: cover;
+  display: cover;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+.aPageBg3 h5 {
+  padding-top: 40px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.aPageBgTxt3 {
+padding-top: 80px;
 display: flex;
 flex-direction: row;
 align-items: center;
 justify-content: center;
 margin: 0 auto;
-padding-bottom: 150px;
+padding-bottom: 20px;
 }
-.aPageBgStyle2 {
+.aPageBgStyle3 {
   text-align: left;
   margin-left: 100px;
 }
-.aPageBgTxt2 hr {
+.aPageBgTxt3 hr {
+  border: 1;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 70%;
   height: .5px;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  width: 60%;
+  border: 0;
+  background-color: rgb(0, 0, 0);
 }
 @media (max-width: 800px) {
-  .aPageBg2{
+  .aPageBg3{
     flex-direction: column;
     align-items: center;
   }
-  .aPageBgStyle2{
-    padding-top: 40px;
-    margin: auto;
+  .aPageBgStyle3{
+    padding-top: 80px;
+    flex-direction: column;
+    align-items: center;
   }
-  .aPageBgTxt2{
+  .aPageBgTxt3{
     padding-top: 50px;
+    text-align: center;
     margin: auto;
   }
-}
-
+} */

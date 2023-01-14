@@ -3,9 +3,8 @@ import p2Sample1 from '../images/p2Sample1.png'
 
 const About3 = () => {
     return (
-      <div className='aPageBg3'>
-        <h5> A FEW THINGS YOU SHOULD KNOW. </h5>
-      <div className='aPageBgTxt3'>
+      <div className='aPageBg2'>
+      <div className='aPageBgTxt2'>
       <p><h1> We value <br/> curated designs. <hr/></h1>
               With over a years of experience in the instax printing 
         <br/> industry, Ashley Gwen Martin has become 
@@ -14,7 +13,7 @@ const About3 = () => {
         <br/> experience and conceptual printing works have 
         <br/> transformed countless event spaces for an incredibly 
         <br/> discerning clientele.</p>
-      <div className='aPageBgStyle3'>
+      <div className='aPageBgStyle2'>
           <img src={p2Sample1} alt=''/>
       </div>
       </div>

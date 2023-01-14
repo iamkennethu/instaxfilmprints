@@ -1,5 +1,5 @@
 import React from 'react';
-import About3 from './About3';
+// import About3 from './About3';
 import p2Sample1 from '../images/p2Sample1.png';
 
 function About() {
@@ -32,12 +32,18 @@ function About() {
               <br/> experience and conceptual printing works have 
               <br/> transformed countless event spaces for an incredibly 
               <br/> discerning clientele.
+              <br/> industry, Ashley Gwen Martin has become 
+              <br/> world-renowned for her impeccable taste and 
+              <br/> trend-setting creative direction. Her remarkable guest 
+              <br/> experience and conceptual printing works have 
+              <br/> transformed countless event spaces for an incredibly 
+              <br/> discerning clientele.
           </p>
           <img src={p2Sample1} alt=''/>
     </div>
     </div>
     </div>
-    <About3/>
+    {/* <About3/> */}
     </div>
     
   )
