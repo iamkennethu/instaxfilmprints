@@ -1,6 +1,7 @@
 import React from 'react';
 import About2 from './About2';
 import About3 from './About3';
+import About4 from './About4';
 import aPage1Sample1 from '../images/aPage1Sample1.png';
 import aPage1Sample2 from '../images/aPage1Sample2.png'
 
@@ -46,6 +47,7 @@ function About() {
     </div>
     </div>
     <About2/>
+    <About4/>
     <About3/>
     </div>
     
