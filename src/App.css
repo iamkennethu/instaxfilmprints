@@ -34,7 +34,8 @@
 .fPage h5 {
   padding-top: 30px;
   font-family: 'Roboto', sans-serif;
-  font-weight: 600;
+  font-weight: 500;
+  word-spacing: 2px;
 }
 .fPage p {
   padding-top: 5px;
@@ -54,13 +55,13 @@
     width: 100%;
 }
 .fPageBgStyle{
-  padding-top: 150px;
+  padding-top: 60px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
-  padding-bottom: 150px;
+  padding-bottom: 60px;
 }
 .fPage2Txt{
   text-align: left;
@@ -77,8 +78,12 @@
 }
 .fPage2Txt ol{
   font-family: 'Roboto', sans-serif;
-  letter-spacing: 1px;
+  letter-spacing: .5px;
+  word-spacing: 2px;
   padding-top: 15px;
+}
+.fPage2Txt a{
+  color: black;
 }
 .fPage2Txt hr {
   width: 100%;
@@ -97,7 +102,7 @@
     align-items: center;
   }
   .fPage2Txt{
-    padding-top: 50px;
+    padding-top: 40px;
     text-align: center;
     margin: auto;
   }
@@ -205,8 +210,17 @@
   margin-bottom: 40px;
 }
 @media (max-width: 800px) {
+  .fPage5 {
+    padding-top: 20px;
+  }
   .fPage5 hr {
     width: 40%;
+  }
+  .fPage5 h1 {
+    font-size: 1.3em;
+  }
+  .fPage5 li {
+    font-size: .8em;
   }
 }
 .pImage:hover {
@@ -252,7 +266,8 @@ font-weight: 500;
 .aPage h5 {
 padding-top: 30px;
 font-family: 'Roboto', sans-serif;
-font-weight: 600;
+font-weight: 500;
+letter-spacing: .5px;
 }
 
 .aPageBg {
@@ -268,14 +283,17 @@ width: 100%;
   
 }
 .aPageBgStyle {
-  padding-top: 50px;
+  padding-top: 40px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
   text-align: left;
+}
+.aPageBgStyle p {
+  padding-bottom: 20px;
 }
 .aPageBgStyle img {
   padding-top: 10px;
@@ -289,6 +307,9 @@ width: 100%;
     flex-direction: column;
     text-align: center;
     margin: auto;
+  }
+  .aPage h1 {
+    font-size: 1.8em;
   }
   .aPageBgStyle{
     padding-top: 30px;
@@ -305,13 +326,10 @@ width: 100%;
     position: relative;
   }
   .aPageStyle2 p{
-    /* position: absolute;
-    display: contents;
-    bottom: 0; */
-    padding-top: 480px;
+    padding-top: 460px;
   }
   .aPageStyle2 img {
-    padding-top: 30px;
+    padding-top: 10px;
     position:absolute;
     /* display: contents; */
     top: 0;
