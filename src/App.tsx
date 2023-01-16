@@ -4,7 +4,7 @@ import Navbar from './navbar/Navbar';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './homeLandingPage/Home';
 import About from './aboutLandingPage/About';
-import SpecialOffers from './components/SpecialOffers';
+import SpecialOffer from './specialofferLandingPage/SpecialOffer';
 import Location from './components/Location';
 import Guidelines from './components/Guidelines';
 import FAQs from './components/FAQs';
@@ -20,7 +20,7 @@ function App() {
     <Routes>
     <Route path='/' element={<Home />}/>
       <Route path='/About' element={<About />}/>
-      <Route path='/SpecialOffers' element={<SpecialOffers />}/>
+      <Route path='/SpecialOffer' element={<SpecialOffer />}/>
       <Route path='/Location' element={<Location />}/>
       <Route path='/Guidelines' element={<Guidelines />}/>
       <Route path='/FAQs' element={<FAQs />}/>
