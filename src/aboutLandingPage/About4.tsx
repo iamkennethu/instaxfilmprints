@@ -1,5 +1,6 @@
 import React from 'react';
 import p2Sample1 from '../images/p2Sample1.png'
+import { FiFeather } from 'react-icons/fi';
 
 const About4 = () => {
     return (
@@ -14,7 +15,8 @@ const About4 = () => {
         <br/> trend-setting creative direction. Her remarkable guest 
         <br/> experience and conceptual printing works have 
         <br/> transformed countless event spaces for an incredibly 
-        <br/> discerning clientele.</p>
+        <br/> discerning clientele. <br/><br/>
+        <FiFeather size='1em'/></p>
       <div className='aPageBgStyle4'>
           <img src={p2Sample1} alt=''/>
       </div>
