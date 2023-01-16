@@ -9,7 +9,8 @@ import Location from './components/Location';
 import Guidelines from './components/Guidelines';
 import FAQs from './components/FAQs';
 import Inquire from './components/Inquire';
-import Footer from './footer/NavFooter';
+import Footer1 from './footer/NavFooter';
+import Footer2 from './footer/NavFooter2';
 
 function App() {
   return (
@@ -26,7 +27,8 @@ function App() {
       <Route path='/Inquire' element={<Inquire />}/>
     </Routes>
     </BrowserRouter>
-      <Footer/>
+      <Footer1/>
+      <Footer2/>
     </div>
   );
 }
