@@ -4,6 +4,7 @@ import About3 from './About3';
 import About4 from './About4';
 import About5 from './About5';
 import About6 from './About6';
+import About7 from './About7';
 import aPage1Sample1 from '../images/aPage1Sample1.png';
 import aPage1Sample2 from '../images/aPage1Sample2.png';
 
@@ -53,6 +54,7 @@ function About() {
     <About4/>
     <About5/>
     <About6/>
+    <About7/>
     </div>
     
   )

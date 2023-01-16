@@ -343,7 +343,7 @@ width: 100%;
   background-position-x: center;
   position: relative;
   text-shadow: 0 0 5px rgba(0,0,0,0.5);
-  height: 720px;
+  height: 620px;
   padding-bottom: 200px;
 }
 
@@ -550,4 +550,15 @@ padding-bottom: 20px;
 	font-weight: 900;
 	color: black;
   width: 45%;
+}
+
+.aPage6{
+  background-image: url(./images/webAbout6.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  position: relative;
+  text-shadow: 0 0 5px rgba(0,0,0,0.5);
+  height: 620px;
+  padding-bottom: 200px;
 }
