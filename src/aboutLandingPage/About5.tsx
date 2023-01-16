@@ -9,7 +9,7 @@ const About5 = () => {
           <img src={p2Sample1} alt=''/>
       <div className='aPageBgTxt3'>
           <h5> NO 3 </h5>
-          <h1> Of all the Marchesa <br/> gowns, this one was our <br/> favorite. <hr /></h1>
+          <h1> Of all the instax <br/> films, this one was our <br/> favorite. <hr /></h1>
           <p> With over a years of experience in the instax printing 
               <br/> industry, Ashley Gwen Martin has become 
               <br/> world-renowned for her impeccable taste and 

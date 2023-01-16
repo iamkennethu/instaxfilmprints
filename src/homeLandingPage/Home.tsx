@@ -5,6 +5,7 @@ import picSamp2 from '../images/picSamp2.png';
 import picSamp3 from '../images/picSamp3.png';
 import Home2 from './Home2';
 import Home3 from './Home3';
+import { FiFeather } from 'react-icons/fi';
 
 
 
@@ -18,7 +19,10 @@ function Home() {
           <hr/>
           <h5> WELCOME TO INSTAX FILM PRINTS PH. </h5>
           <h1> PRINT IN FILMS <br /> THEY NEVER FADE. </h1>
-          <p> Keep your most cherished photos in polaroid films <br /> that nostalgia feels. </p>
+          <p> Keep your most cherished photos in polaroid films <br /> that nostalgia feels. 
+          <br />
+          <br />
+          <FiFeather size='1em'/></p>
           {/* <img className='fpage' src={webHome2} alt=""/>  */}
           <a href="/Guidelines"> <img src={picSamp1} alt='' className='pImage'/> </a>
           <a href="/Guidelines"> <img src={picSamp2} alt='' className='pImage'/></a>

@@ -28,19 +28,23 @@
 }
 
 .fPage h1 {
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+  font-weight: 500;
+  font-style: italic;
   padding-top: 25px;
 }
 .fPage h5 {
   padding-top: 30px;
   font-family: 'Roboto', sans-serif;
-  font-weight: 500;
+  font-weight: 800;
   word-spacing: 2px;
+  letter-spacing: 1px;
+  font-size: .7em;
 }
 .fPage p {
-  padding-top: 5px;
+  padding-top: 15px;
   margin-bottom: 40px;
-  font-size: large;
+  font-size: 1em;
 }
 
 .fPageBg {
@@ -68,9 +72,15 @@
   margin-left: 100px;
 }
 .fPage2Txt h1{
+  font-weight: 500;
   margin-bottom: 5px;
 }
 .fPage2Txt h3{
+  padding-top: 5px;
+  font-family: 'Roboto', sans-serif;
+  word-spacing: 2px;
+  font-size: .8em;
+  font-weight: 500;
   margin-bottom: 10px;
 }
 .fPage2Txt p{
@@ -79,8 +89,11 @@
 .fPage2Txt ol{
   font-family: 'Roboto', sans-serif;
   letter-spacing: .5px;
-  word-spacing: 2px;
-  padding-top: 15px;
+  word-spacing: 3px;
+  font-size: .8em;
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding-top: 20px;
 }
 .fPage2Txt a{
   color: black;
@@ -123,27 +136,33 @@
   color:#ffffff;
   margin-left: 180px;
   padding-top: 20px;
-  font-size: 2.7rem;
+  font-weight: 300;
+  font-size: 3rem;
 }
 .fPage4 h3 {
   text-align: left;
   font-family: 'Roboto', sans-serif;
   color:#ffffff;
+  font-size: 1em;
+  letter-spacing: 1px;
+  word-spacing: 2px;
   font-weight: 900;
   margin-left: 180px;
   padding-top: 220px;
 }
 .fPage4 h5 {
-  text-align: right;
+  text-align: left;
   font-family: 'Roboto', sans-serif;
   color:#ffffff;
-  font-weight: 400;
-  font-size: 1.2rem;
-  margin-right: 275px;
-  padding-top: 15px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  font-size: 1rem;
+  margin-left: 180px;
+  padding-top: 20px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 800px) {
   .fPage4 h1 {
     margin-left: 80px;
   }
@@ -154,16 +173,13 @@
     margin-right: 80px;
   }
 }
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
   .fPage4 {
     background-position: top;
   }
-}
+} */
 
 .fPage5 {
-  /* width: 100%;
-  height: 100%;
-  object-fit: cover; */
   background-image: url(./images/webHome2.png);
   text-align: center;
   background-size: cover;
@@ -174,13 +190,13 @@
 }
 .fPage5 h1 {
   padding-top: 50px;
-  /* margin-top: 100px; */
   font-size: 1.5em;
-  font-weight: 500;
+  font-weight: 300;
 }
 .fPage5 h4 {
     margin: auto;
     margin-top: 30px;
+    font-weight: 300;
     font-family: 'Cardo', serif;
   }
 
@@ -188,9 +204,11 @@
   margin-top: 15px;
   letter-spacing: .5px;
   margin-bottom: 50px;
-	font-size: 1em;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+	font-size: .9em;
 	text-transform: uppercase solid;
-	font-weight: 500;
+	font-weight: 300;
   font-family: 'Roboto', sans-serif;
   /* border-radius: 3px; */
   /* transition: 0.2s ease-in-out; */
@@ -203,7 +221,7 @@
 }
 .fPage5 hr {
   margin: auto;
-  width: 16%;
+  width: 14%;
   height: .5px;
   border: 0;
   background-color: rgb(0, 0, 0);
@@ -237,7 +255,8 @@
 .fPage5 ol a{
 	font-size: .8em;
 	font-family: 'Roboto', sans-serif;
-	font-weight: 900;
+  letter-spacing: 1px;
+	font-weight: 500;
 	color: black;
   width: 45%;
 }
@@ -479,4 +498,40 @@ padding-bottom: 20px;
   text-shadow: 0 0 5px rgba(0,0,0,0.5);
   height: 620px;
   padding-bottom: 200px;
+}
+
+
+.sPage {
+  background-image: url(./images/webHome2.png);
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  margin-bottom: 40px;
+}
+.sPage hr {
+margin: auto;
+margin-top: 20px;
+width: 90%;
+height: 6px;
+border: 1px solid rgb(124, 124, 124);
+}
+
+.sPage h1 {
+padding-top: 30px;
+font-weight: 300;
+font-style: italic;
+}
+.sPage h5 {
+padding-top: 30px;
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+letter-spacing: 1px;
+word-spacing: 2px;
+
+}
+.sPage p {
+padding-top: 30px;
+margin-bottom: 40px;
+font-size: .9em;
 }
