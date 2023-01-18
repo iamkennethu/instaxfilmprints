@@ -1,5 +1,6 @@
 import React from 'react';
 import { FiFeather } from 'react-icons/fi';
+import SpecialOffer2 from './SpecialOffer2';
 
 function SpecialOffers() {
   return (
@@ -18,6 +19,7 @@ function SpecialOffers() {
           </p>
 
     </div>
+    <SpecialOffer2/>
     </div>
   )
 }
