@@ -448,7 +448,7 @@ background-color: rgb(0, 0, 0);
   word-spacing: 2px;
 }
 .aPageBgTxt4 {
-padding-top: 60px;
+/* padding-top: 20px; */
 display: flex;
 flex-direction: row;
 align-items: center;
@@ -546,16 +546,12 @@ font-size: .9em;
 }
 
 .sPage2 {
-  background-repeat: no-repeat center center fixed;
-  background-position-x: center;
-  background: url('./images/webHome3.png'); 
+  background-image: url(./images/webHome3.png);
+  text-align: center;
   background-size: cover;
-  display: cover;
+  background-repeat: no-repeat;
   background-position-x: center;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-  width: 100%;
+  margin-bottom: 40px;
 }
 
 .sPage2 h1 {
@@ -563,8 +559,8 @@ font-size: .9em;
   color:#000000;
   margin-left: 280px;
   padding-top: 20px;
-  font-weight: 300;
-  font-size: 3rem;
+  font-weight: 100;
+  font-size: 2.8rem;
 }
 
 .sPage2 hr {
@@ -572,4 +568,14 @@ font-size: .9em;
   height: .5px;
   border: 0;
   background-color: rgb(0, 0, 0);
+}
+
+@media (max-width: 800px) {
+  .sPage2 h1 {
+    margin-left: 80px;
+  }
+  .sPage2 hr {
+    justify-content: center;
+    align-items: center;
+  }
 }
