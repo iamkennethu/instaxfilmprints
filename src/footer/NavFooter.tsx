@@ -18,7 +18,7 @@ function NavFooter() {
           <a> <img src={p5Sample2} alt='image2' className='pImage'/></a>
           <a> <img src={p5Sample3} alt='image3' className='pImage'/></a>
           <h4> Follow for more updates </h4>
-          <ol><a href="/Inquire" > @INSTAXFILMPRINTS.PH </a></ol>
+          <ol><a href="https://www.instagram.com/instaxfilmprints/" > @INSTAXFILMPRINTS.PH </a></ol>
       </div>
     </div>
 

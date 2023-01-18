@@ -279,14 +279,16 @@ border: 1px solid rgb(124, 124, 124);
 }
 
 .aPage h1 {
-padding-top: 25px;
+padding-top: 20px;
 font-weight: 500;
 }
 .aPage h5 {
 padding-top: 30px;
 font-family: 'Roboto', sans-serif;
-font-weight: 500;
-letter-spacing: .5px;
+font-weight: 800;
+word-spacing: 2px;
+letter-spacing: 1px;
+font-size: .7em;
 }
 
 .aPageBg {
@@ -378,8 +380,14 @@ width: 100%;
   margin: 0 auto;
   width: 100%;
 }
+.aPageBg3 h5 {
+    padding-top: 40px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
 .aPageBgStyle3{
-padding-top: 60px;
+padding-top: 40px;
 display: flex;
 flex-direction: row;
 align-items: center;
@@ -391,12 +399,7 @@ padding-bottom: 60px;
 text-align: center;
 margin-left: 100px;
 }
-/* .aPageBgTxt3 h1{
-margin-bottom: 5px;
-}
-.aPageBgTxt3 h3{
-margin-bottom: 10px;
-} */
+
 .aPageBgTxt3 p{
 padding-top: 15px;
 }
@@ -456,6 +459,12 @@ padding-bottom: 20px;
 .aPageBgStyle4 {
   text-align: left;
   margin-left: 100px;
+}
+.aPageBgTxt4 h5 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  word-spacing: 2px;
 }
 .aPageBgTxt4 hr {
   border: 1;
