@@ -15,12 +15,12 @@ function About() {
         <hr/>
         <h5> ABOUT </h5>
         <h1> We employ distinctive design and
-          <br/> Indelible to yield unparalleled artistry
-          <br/> and remarkable denouement </h1>
+          <br/> Indelible to yield <em>unparalleled artistry</em>
+          <br/> and <em>remarkable denouement</em> </h1>
     <div className='aPageBg'>
     <div className='aPageBgStyle'>
           <p> <img src={aPage1Sample1} alt=''/>
-              <h1> We believe that detail-driven <br/> styling establishes the <br/> foundation for magical moments. </h1>
+              <h1> We believe that <em>detail-driven <br/> styling</em> establishes the <br/> foundation for <  em>magical moments.</em> </h1>
               <br/> With over a years of experience in the instax printing 
               <br/> industry, Ashley Gwen Martin has become 
               <br/> world-renowned for her impeccable taste and 
