@@ -6,8 +6,8 @@ import Home from './homeLandingPage/Home';
 import About from './aboutLandingPage/About';
 import SpecialOffer from './specialofferLandingPage/SpecialOffer';
 import Location from './components/Location';
-import Guidelines from './components/Guidelines';
-import FAQs from './components/FAQs';
+// import Guidelines from './components/Guidelines';
+// import FAQs from './components/FAQs';
 import Inquire from './components/Inquire';
 import Footer1 from './footer/NavFooter';
 import Footer2 from './footer/NavFooter2';
@@ -22,8 +22,8 @@ function App() {
       <Route path='/About' element={<About />}/>
       <Route path='/SpecialOffer' element={<SpecialOffer />}/>
       <Route path='/Location' element={<Location />}/>
-      <Route path='/Guidelines' element={<Guidelines />}/>
-      <Route path='/FAQs' element={<FAQs />}/>
+      {/* <Route path='/Guidelines' element={<Guidelines />}/> */}
+      {/* <Route path='/FAQs' element={<FAQs />}/> */}
       <Route path='/Inquire' element={<Inquire />}/>
     </Routes>
     </BrowserRouter>

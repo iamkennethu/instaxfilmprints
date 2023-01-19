@@ -24,9 +24,9 @@ function Home() {
           <br />
           <FiFeather size='1em'/></p>
           {/* <img className='fpage' src={webHome2} alt=""/>  */}
-          <a href="/Guidelines"> <img src={picSamp1} alt='' className='pImage'/> </a>
-          <a href="/Guidelines"> <img src={picSamp2} alt='' className='pImage'/></a>
-          <a href="/Guidelines"> <img src={picSamp3} alt='' className='pImage'/></a>
+          <a href="/SpecialOffer"> <img src={picSamp1} alt='' className='pImage'/> </a>
+          <a href="/SpecialOffer"> <img src={picSamp2} alt='' className='pImage'/></a>
+          <a href="/SpecialOffer"> <img src={picSamp3} alt='' className='pImage'/></a>
       </div>
     </div>
     </div>
