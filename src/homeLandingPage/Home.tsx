@@ -18,7 +18,7 @@ function Home() {
         <div className='fPage'>
           <hr/>
           <h5> WELCOME TO INSTAX FILM PRINTS PH. </h5>
-          <h1> FILM PRINTS <br /> WILL NEVER FADE. </h1>
+          <h1><em>FILM PRINTS <br /> WILL NEVER FADE.</em> </h1>
           <p> Keep your most cherished photos on Polaroid films <br /> for that nostalgic feeling. 
           <br />
           <br />

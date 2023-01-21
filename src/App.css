@@ -30,7 +30,6 @@
 .fPage h1 {
   /* font-family: 'Roboto', sans-serif; */
   font-weight: 500;
-  font-style: italic;
   padding-top: 25px;
 }
 .fPage h5 {
@@ -535,7 +534,6 @@ border: 1px solid rgb(124, 124, 124);
 .sPage h1 {
 padding-top: 30px;
 font-weight: 300;
-font-style: italic;
 }
 .sPage h5 {
 padding-top: 30px;
