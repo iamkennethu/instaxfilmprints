@@ -10,7 +10,7 @@ function SpecialOffers() {
     <div className="sPage">
           <hr/>
           <h5> OUR FAVORITE MOMENTS </h5>
-          <h1> Experience the Magic </h1>
+          <h1><em>Experience the Magic </em></h1>
           <p> Keep your most cherished photos in polaroid films 
           <br /> that nostalgia feels.
           <br />
