@@ -506,12 +506,15 @@ padding-bottom: 20px;
 .aPage6{
   background-image: url(./images/webAbout6.png);
   background-size: cover;
+  /* display: flex; */
+  /* margin: 0 auto; */
+  /* align-items: center; */
+  /* justify-content: center; */
   background-repeat: no-repeat;
-  background-position-x: center;
-  position: relative;
-  text-shadow: 0 0 5px rgba(0,0,0,0.5);
+  /* background-position-x: center; */
+  object-fit: cover;
+  max-height: 620px;
   height: 620px;
-  padding-bottom: 200px;
 }
 
 
