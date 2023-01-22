@@ -574,30 +574,30 @@ font-weight: 400;
 }
 
 .sPage2 {
-  background-image: url(./images/webHome3.png);
+  /* background-image: url(./images/webHome3.png); */
   text-align: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: center;
-  margin-bottom: 40px;
 }
 
 .sPage2 h1 {
+  font-family: 'Cormorant Garamond', serif;
   text-align: left;
   color:#000000;
   margin-left: 280px;
-  padding-top: 20px;
-  font-weight: 100;
+  padding-top: 30px;
+  font-weight: 400;
   font-size: 2.8rem;
 }
 .sPage2 img {
-  opacity: 0;
+  opacity: 1;
   /* transition: opacity 0.5s ease-in-out; */
   transition: all ease 0.2s;
 }
 
 .sPage2 :hover {
-  opacity: 1;
+  opacity: 0;
   transition: all ease 0.2s;
   
 }
