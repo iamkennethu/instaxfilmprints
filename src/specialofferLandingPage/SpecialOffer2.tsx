@@ -6,7 +6,9 @@ import picSamp3 from '../images/picSamp3.png';
 function SpecialOffer2() {
   return (
     <div className='sPage2'>
-        <h1> Offered Films <hr/></h1>
+        <h1> Offered Films</h1>
+        <hr/>
+        <br/>
         <a href="/Guidelines"> <img src={picSamp1} alt='' className='pImage'/> </a>
           <a href="/Guidelines"> <img src={picSamp2} alt='' className='pImage'/></a>
           <a href="/Guidelines"> <img src={picSamp3} alt='' className='pImage'/></a>

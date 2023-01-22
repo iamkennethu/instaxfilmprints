@@ -22,8 +22,6 @@ function App() {
       <Route path='/About' element={<About />}/>
       <Route path='/SpecialOffer' element={<SpecialOffer />}/>
       <Route path='/Location' element={<Location />}/>
-      {/* <Route path='/Guidelines' element={<Guidelines />}/> */}
-      {/* <Route path='/FAQs' element={<FAQs />}/> */}
       <Route path='/Inquire' element={<Inquire />}/>
     </Routes>
     </BrowserRouter>
