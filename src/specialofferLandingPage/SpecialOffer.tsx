@@ -11,8 +11,8 @@ function SpecialOffers() {
           <hr/>
           <h5> OUR FAVORITE MOMENTS </h5>
           <h1><em>Experience the Magic </em></h1>
-          <p> Keep your most cherished photos in polaroid films 
-          <br /> that nostalgia feels.
+          <p> We've designed and directed noteworthy memories from All over the Philippines to Canada,
+          <br /> and beyond. Whether you're envisioning a Party-stle ancienne setting or a moderne
           <br />
           <br />
           <FiFeather size='1em'/>

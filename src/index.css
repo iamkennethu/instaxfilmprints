@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cardo:ital@0;1&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400;1,600&family=Raleway:wght@100;300;400&family=Roboto:ital,wght@0,400;0,500;0,900;1,400&display');
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital@0;1&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400;1,600&family=Pattaya&family=Raleway:wght@100;300;400;500&family=Roboto:ital,wght@0,400;0,500;0,900;1,400&display');
 
 /* body{
     margin:0px;
@@ -633,24 +633,29 @@ nav .menu-btn,
     #Footer h1{
 
         color: #fff;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Raleway', sans-serif;
         font-weight: 900;
         font-size: 2rem;
         padding-top: 35px;
     }
+    #Footer a {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 400;
+    }
     #Footer p{
         color: #fff;
-        font-weight: 300;
+        font-family: 'Cormorant Garamond', serif;
+        font-weight: 500;
         padding-top: 60px;
     }
     #Footer h3{
         color: #fff;
-        font-family: 'Cardo', serif;
+        font-family: 'Pattaya', sans-serif;
         padding-top: 20px;
     }
     #Footer h5{
         color: #fff;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Raleway', sans-serif;
         font-weight: 400;
         margin-top: 35px;
         line-height: 50px;
