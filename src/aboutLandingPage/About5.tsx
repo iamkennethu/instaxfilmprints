@@ -10,13 +10,11 @@ const About5 = () => {
       <div className='aPageBgTxt3'>
           <h5> NO 3 </h5>
           <h1> Of all the instax <br/> prints, this one was our <br/> favorite. <hr /></h1>
-          <p> With over a years of experience in the instax printing 
-              <br/> industry, Ashley Gwen Martin has become 
-              <br/> world-renowned for her impeccable taste and 
-              <br/> trend-setting creative direction. Her remarkable guest 
-              <br/> experience and conceptual printing works have 
-              <br/> transformed countless event spaces for an incredibly 
-              <br/> discerning clientele.
+          <p> Designer fashion has always played a key role in our
+              <br/> editorial styling and we've been fortunate to style
+              <br/> dozens of polaroids - the highest number of 
+              <br/> made in our roster. This one polaroid films
+              <br/> memories was a standout.
               <br/>
               <br/> <FiFeather size='1em'/>
               </p>

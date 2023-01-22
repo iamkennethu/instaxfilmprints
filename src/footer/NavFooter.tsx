@@ -12,7 +12,8 @@ function NavFooter() {
         <div className='fPage5'>
           <h1> WE CAN'T WAIT TO PRINT WITH YOU </h1>
           <ul>
-          <li><a href="/Inquire" > INQUIRE WITH US <hr/></a></li>
+          <li><a href="/Inquire" > INQUIRE WITH US</a></li>
+          <hr/>
           </ul>
           <a> <img src={p5Sample1} alt='image1' className='pImage'/> </a>
           <a> <img src={p5Sample2} alt='image2' className='pImage'/></a>

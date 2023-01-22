@@ -10,14 +10,13 @@ const About3 = () => {
           <img src={p2Sample1} alt=''/>
       <div className='aPageBgTxt3'>
           <h5> NO 1 </h5>
-          <h1> We value <br/> curated designs. <hr /></h1>
-          <p> With over a years of experience in the instax printing 
-              <br/> industry, Ashley Gwen Martin has become 
-              <br/> world-renowned for her impeccable taste and 
-              <br/> trend-setting creative direction. Her remarkable guest 
-              <br/> experience and conceptual printing works have 
-              <br/> transformed countless event spaces for an incredibly 
-              <br/> discerning clientele.
+          <h1> We value <br/> curated designs.</h1>
+          <hr />
+          <p> We've perfected consistent and eye-catching
+              <br/> detail styling techniques and have taught the
+              <br/> Instax Films method to polaroid industry
+              <br/> professionals at workshops from Philippines.
+              <br/> Tangible details preserve your memories.
               <br/>
               <br/> <FiFeather size='1em'/>
               </p>

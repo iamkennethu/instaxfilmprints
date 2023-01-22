@@ -8,14 +8,13 @@ const About4 = () => {
       <div className='aPageBgTxt4'>
       <p>
       <h5> NO 2 </h5>
-        <h1> We love <br/> photographing <br/> portraits on film. <hr/></h1>
-              With over a years of experience in the instax printing 
-        <br/> industry, Ashley Gwen Martin has become 
-        <br/> world-renowned for her impeccable taste and 
-        <br/> trend-setting creative direction. Her remarkable guest 
-        <br/> experience and conceptual printing works have 
-        <br/> transformed countless event spaces for an incredibly 
-        <br/> discerning clientele. <br/><br/>
+        <h1> We love <br/> photographing <br/> portraits on film.</h1>
+        <hr/>
+        <div>Did you know that Ashley is also a knitly done
+        <br/> owner?, Her work has been published in 
+        <br/> in instagram from philippines to canada. 
+        <br/> want to get your own character done with knitly?</div>
+         <br/><br/>
         <FiFeather size='1em'/></p>
       <div className='aPageBgStyle4'>
           <img src={p2Sample1} alt=''/>
