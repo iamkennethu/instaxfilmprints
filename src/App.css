@@ -591,14 +591,15 @@ font-weight: 400;
   font-size: 2.8rem;
 }
 .sPage2 img {
-  opacity: 0;
+  opacity: 1;
   /* transition: all ease 0.2s; */
   /* transition: opacity 0.5s ease-in-out; */
 }
 
 .sPage2 img:hover {
-  opacity: 1;
-  animation: slideDown .2s ease-in-out;
+  opacity: 0;
+  transition: all ease 0.2s;
+  /* animation: slideDown .2s ease-in-out; */
 }
 
 .sPage2 hr {
