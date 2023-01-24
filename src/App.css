@@ -574,11 +574,12 @@ font-weight: 400;
 }
 
 .sPage2 {
-  /* background-image: url(./images/webHome3.png); */
+  background-image: url(./images/webHome3.png);
   text-align: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: center;
+  padding-bottom: 60px;
 }
 
 .sPage2 h1 {
@@ -586,7 +587,7 @@ font-weight: 400;
   text-align: left;
   color:#000000;
   margin-left: 280px;
-  padding-top: 30px;
+  padding-top: 100px;
   font-weight: 400;
   font-size: 2.8rem;
 }
@@ -637,12 +638,41 @@ font-weight: 400;
 
 
 
-.iPage form {
-  margin-top: 80px;
+
+.iPage{
+    background-repeat: no-repeat center center fixed;
+    background-position-x: center;
+    /* background: url('./images/webHome3.png');  */
+    background-size: cover;
+    display: cover;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 150px;
+}
+.iPageInquire{
+  text-align: left;
+  margin-left: 160px;
+  
+  
+}
+.iPageBgStyle{
   display: flex;
+  /* flex-direction: center; */
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 120px;
+}
+.iPage form {
+  /* margin-top: 80px; */
+  display: flex;
+  justify-content: center;
   flex-direction: column;
   align-items: center;
-  padding: 20px;
+  padding-top: 20px;
+  border: 1px solid rgb(0, 0, 0);
+  width: 140%;
 }
 .iPage h1 {
   font-family: 'Cormorant Garamond', serif;
@@ -653,11 +683,6 @@ font-weight: 400;
   padding-top: 10px;
   font-family: 'Cormorant Garamond', serif;
   font-weight: 500;
-}
-
-.iPage label {
-  align-items: center;
-  margin: 10px;
 }
 
 .iPage input {
@@ -688,6 +713,7 @@ font-weight: 400;
   border-radius: 2px;
   cursor: pointer;
   margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .iPage button:hover {
@@ -696,4 +722,3 @@ font-weight: 400;
   color: rgb(255, 255, 255);
   
 }
-

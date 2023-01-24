@@ -14,7 +14,7 @@ export default function App() {
           zoom: 13
         }}
         style={{width: "100%", height: "100vh"}}
-        mapStyle="https://api.maptiler.com/maps/openstreetmap/style.json?key=24r7saogNuX4CEIicMhK">
+        mapStyle="https://api.maptiler.com/maps/hybrid/style.json?key=24r7saogNuX4CEIicMhK">
 
         <NavigationControl position="bottom-left" />
         <Marker
