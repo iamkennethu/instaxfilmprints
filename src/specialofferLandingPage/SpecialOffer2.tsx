@@ -9,13 +9,13 @@ function SpecialOffer2() {
         <h1> Offered Films</h1>
         <hr/>
         <br/>
-        <a href="/Guidelines"> <img src={picSamp1} alt='' className='pImage'/> </a>
-          <a href="/Guidelines"> <img src={picSamp2} alt='' className='pImage'/></a>
-          <a href="/Guidelines"> <img src={picSamp3} alt='' className='pImage'/></a>
+          <a href="/SpecialOffer/Offer1"> <img src={picSamp1} alt='' className='sOffer1'/> </a>
+          <a href="/SpecialOffer/Offer2"> <img src={picSamp2} alt='' className='sOffer2'/></a>
+          <a href="/SpecialOffer/Offer3"> <img src={picSamp3} alt='' className='sOffer3'/></a>
           <br/>
-          <a href="/Guidelines"> <img src={picSamp1} alt='' className='pImage'/> </a>
-          <a href="/Guidelines"> <img src={picSamp2} alt='' className='pImage'/></a>
-          <a href="/Guidelines"> <img src={picSamp3} alt='' className='pImage'/></a>
+          <a href="/SpecialOffer/Offer4"> <img src={picSamp1} alt='' className='sOffer4'/> </a>
+          <a href="/SpecialOffer/Offer5"> <img src={picSamp2} alt='' className='sOffer5'/></a>
+          <a href="/SpecialOffer/Offer6"> <img src={picSamp3} alt='' className='sOffer6'/></a>
     </div>
   )
 }
