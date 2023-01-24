@@ -637,12 +637,22 @@ font-weight: 400;
 
 
 
-form {
+.iPage form {
   margin-top: 80px;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 20px;
+}
+.iPage h1 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 3em;
+  font-weight: 300;
+}
+.iPage p {
+  padding-top: 10px;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 500;
 }
 
 .iPage label {
@@ -650,27 +660,40 @@ form {
   margin: 10px;
 }
 
-input, textarea {
-  padding: 5px;
-  font-size: 18px;
+.iPage input {
+  padding: 10px;
+  text-align: center;
+  font-size: 12px;
+  word-spacing: 1px;
+  letter-spacing: .8px;
   border-radius: 0px;
-  /* border: 1px solid #ccc; */
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
-  width: 250px;
+  border: 1px solid #ccc;
+  /* border-top: 1px solid black;
+  border-bottom: 1px solid black; */
+  width: 350px;
 }
 
-button {
-  background-color: #4CAF50;
-  color: white;
+.iPage textarea {
+  width: 350px;
+  padding: 30px;
+  border: transparent;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+.iPage button {
+  background-color: transparent;
+  color: rgb(71, 71, 71);
   padding: 12px 20px;
   border: none;
-  border-radius: 4px;
+  border-radius: 2px;
   cursor: pointer;
   margin-top: 10px;
 }
 
-button:hover {
-  background-color: #45a049;
+.iPage button:hover {
+  transition: all ease 0.5s;
+  background-color: #f3bc4e;
+  color: rgb(255, 255, 255);
+  
 }
 

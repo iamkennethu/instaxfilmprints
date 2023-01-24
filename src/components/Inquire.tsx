@@ -1,43 +1,28 @@
-import React, { useState } from 'react';
+import React from 'react'
 
-const Inquire = () => {
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [number, setNumber] = useState('');
-  const [location, setLocation] = useState('');
-  const [budget, setBudget] = useState('');
-  const [message, setMessage] = useState('');
-
-  const handleSubmit = (e: { preventDefault: () => void; }) => {
-    e.preventDefault();
-    // add your form submission logic here
-  };
-
+function Inquire() {
   return (
     <div className='iPage'>
-    <form onSubmit={handleSubmit}>
-         Name:
-      <label>
-        <input type="text" value={name} placeholder="Full name" onChange={(e) => setName(e.target.value)} required /></label>
-      Email:
-      <label>
-        <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} required /></label>
-      Phone Number:
-      <label>
-        <input type="contact" value={number} onChange={(e) => setNumber(e.target.value)} required /></label>
-      Location:
-      <label>
-        <input type="location" value={location} onChange={(e) => setLocation(e.target.value)} required /></label>
-        Estimated Budget:
-      <label>
-        <input type="budget" value={budget} onChange={(e) => setBudget(e.target.value)} required /></label>
-      Message:
-      <label>
-        <textarea value={message} onChange={(e) => setMessage(e.target.value)} required /></label>
-      <button type="submit">Submit</button>
-    </form>
+        <form action="https://formsubmit.co/a116386e18fe6ceb8dbdace91dfd5807" method="POST">
+        <h1> Inquire</h1>
+        <p> We'd love to hear from you! Please fill out the form
+        <br/> below or send a note directly to @instaxfilmprints
+        </p>
+        <br/>
+          <input type="text" name="Name" placeholder='YOUR NAME' required></input>
+          <br/>
+          <input type="email" name="Email" placeholder='EMAIL ADDRESS' required></input>
+          <br/>
+          <input type="Contact" name="Contact" placeholder='PHONE NUMBER' required></input>
+          <br/>
+          <input type="Budget" name="Budget" placeholder='ESTIMATED OVERALL BUDGET' required></input>
+          <br/>
+          <textarea name='Message' placeholder='Enter your message here.' required></textarea>
+          <br/>
+          <button type='submit'> SUBMIT FORM </button>
+        </form>
     </div>
-  );
-};
+  )
+}
 
 export default Inquire;
