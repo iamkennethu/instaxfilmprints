@@ -21,28 +21,24 @@ function About() {
     <div className='aPageBgStyle'>
           <p> <img src={aPage1Sample1} alt=''/>
               <h1> We believe that <em>detail-driven <br/> styling</em> establishes the <br/> foundation for <  em>magical moments.</em> </h1>
-              <br/> With over a years of experience in the instax printing 
-              <br/> industry, Ashley Gwen Martin has become 
-              <br/> world-renowned for her impeccable taste and 
-              <br/> trend-setting creative direction. Her remarkable guest 
-              <br/> experience and conceptual printing works have 
-              <br/> transformed countless event spaces for an incredibly 
-              <br/> discerning clientele.
+              <br/> At East Made Co, we believe in the inviting, elegant warmth 
+              <br/> of a wedding so personally tailored to you that your 
+              <br/> wedding day memories will be recounted for generations.
+              <br/> Our favorite gatherings are replete with laughter,
+              <br/> effusive tears, memorable music, and delectable cuisine, 
+              <br/> surrounded by your dearest family and friends.
           </p>
     <div className='aPageStyle2'>
-          <p> With over a years of experience in the instax printing 
-              <br/> industry, Ashley Gwen Martin has become 
-              <br/> world-renowned for her impeccable taste and 
-              <br/> trend-setting creative direction. Her remarkable guest 
-              <br/> experience and conceptual printing works have 
-              <br/> transformed countless event spaces for an incredibly 
-              <br/> discerning clientele.
-              <br/> industry, Ashley Gwen Martin has become 
-              <br/> world-renowned for her impeccable taste and 
-              <br/> trend-setting creative direction. Her remarkable guest 
-              <br/> experience and conceptual printing works have 
-              <br/> transformed countless event spaces for an incredibly 
-              <br/> discerning clientele.
+              <p> Owner and Creative Director Ashley Gwen Martin
+              <br/> founded InstaxFilmPrints in 2020 with the goal of 
+              <br/> infusing memories with refined styling and purposeful,
+              <br/> story-driven design, rooted in connection and vintage.
+              <br/> 
+              <br/> Drawing from her classical music background and 
+              <br/> professional experience performing in major symphony orchestras,
+              <br/> Elizabeth is naturally detail-oriented, perceptive, and organized.
+              <br/> She infuses inspiration from fashion, fine art, and interior design
+              <br/>  into her work, and has a natural eye for elegant style. 
           </p>
           <img src={aPage1Sample2} alt=''/>
     </div>

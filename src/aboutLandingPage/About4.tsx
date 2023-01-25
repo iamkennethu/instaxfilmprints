@@ -1,5 +1,5 @@
 import React from 'react';
-import p2Sample1 from '../images/p2Sample1.png'
+import a2Sample2 from '../images/a2Sample2.png'
 import { FiFeather } from 'react-icons/fi';
 
 const About4 = () => {
@@ -17,7 +17,7 @@ const About4 = () => {
          <br/><br/>
         <FiFeather size='1em'/></p>
       <div className='aPageBgStyle4'>
-          <img src={p2Sample1} alt=''/>
+          <img src={a2Sample2} alt=''/>
       </div>
       </div>
       </div>

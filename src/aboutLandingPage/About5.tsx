@@ -1,12 +1,12 @@
 import React from 'react';
-import p2Sample1 from '../images/p2Sample1.png'
+import a2Sample3 from '../images/a2Sample3.png'
 import { FiFeather } from 'react-icons/fi';
 
 const About5 = () => {
     return (
       <div className='aPageBg3'>
       <div className='aPageBgStyle3'>
-          <img src={p2Sample1} alt=''/>
+          <img src={a2Sample3} alt=''/>
       <div className='aPageBgTxt3'>
           <h5> NO 3 </h5>
           <h1> Of all the instax <br/> prints, this one was our <br/> favorite. <hr /></h1>

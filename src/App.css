@@ -138,6 +138,20 @@
   /* height: 700px; */
   padding-bottom: 200px;
 }
+.fPage4 ol{
+  text-align: right;
+  font-family: 'Raleway', sans-serif;
+  color:#ffffff;
+  font-weight: 300;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  font-size: 1rem;
+  margin-right: 250px;
+  margin-top: 20px;
+}
+.fPage4 a{
+  color: rgb(255, 255, 255);
+}
 .fPage4 h1 {
   font-family: 'Cormorant Garamond', serif;
   text-align: left;
@@ -169,6 +183,7 @@
   margin-left: 180px;
   padding-top: 20px;
 }
+
 
 @media (max-width: 800px) {
   .fPage4 h1 {
@@ -335,6 +350,7 @@ width: 100%;
 }
 .aPageStyle2 {
   text-align: right;
+  margin-top: -50px;
   margin-left: 20px;
   font-weight: 500;
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import p2Sample1 from '../images/p2Sample1.png'
+import a2Sample1 from '../images/a2Sample1.png'
 import { FiFeather } from 'react-icons/fi';
 
 const About3 = () => {
@@ -7,10 +7,10 @@ const About3 = () => {
       <div className='aPageBg3'>
         <h5> A FEW THINGS YOU SHOULD KNOW. </h5>
       <div className='aPageBgStyle3'>
-          <img src={p2Sample1} alt=''/>
+          <img src={a2Sample1} alt=''/>
       <div className='aPageBgTxt3'>
           <h5> NO 1 </h5>
-          <h1> We value <br/> curated designs.</h1>
+          <h1> We value <br/> minimal details.</h1>
           <hr />
           <p> We've perfected consistent and eye-catching
               <br/> detail styling techniques and have taught the

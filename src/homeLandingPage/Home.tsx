@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 // import webHome2 from '../images/webHome2.jpg';
 import picSamp1 from '../images/picSamp1.png';
@@ -24,9 +25,9 @@ function Home() {
           <br />
           <FiFeather size='1em'/></p>
           {/* <img className='fpage' src={webHome2} alt=""/>  */}
-          <a href="/SpecialOffer"> <img src={picSamp1} alt='' className='pImage'/> </a>
-          <a href="/SpecialOffer"> <img src={picSamp2} alt='' className='pImage'/></a>
-          <a href="/SpecialOffer"> <img src={picSamp3} alt='' className='pImage'/></a>
+          <a> <img src={picSamp1} alt='' className='pImage'/> </a>
+          <a> <img src={picSamp2} alt='' className='pImage'/></a>
+          <a> <img src={picSamp3} alt='' className='pImage'/></a>
       </div>
     </div>
     </div>
