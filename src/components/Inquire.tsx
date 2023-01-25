@@ -14,7 +14,7 @@ function Inquire() {
         <br/> below or send a note directly to @instaxfilmprints
         </p>
         <br/>
-          <input type="text" name="Name" placeholder='YOUR NAME' required></input>
+          <input type="text" name="Name" placeholder='FULL NAME' required></input>
           <br/>
           <input type="email" name="Email" placeholder='EMAIL ADDRESS' required></input>
           <br/>

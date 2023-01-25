@@ -671,7 +671,7 @@ font-weight: 400;
   flex-direction: column;
   align-items: center;
   padding-top: 20px;
-  border: 1px solid rgb(0, 0, 0);
+  border: 1px solid #ccc;
   width: 140%;
 }
 .iPage h1 {
