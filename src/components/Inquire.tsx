@@ -1,12 +1,12 @@
 /* eslint-disable react/style-prop-object */
 import React from 'react'
-import p2Sample1 from '../images/p2Sample1.png';
+import gif from '../images/gif.gif';
 
 function Inquire() {
   return (
     <div className='iPage'>
       <div className='iPageBgStyle'>
-          <img src={p2Sample1} alt=''/>
+          <img src={gif} alt=''/>
           <div className='iPageInquire'>
         <form className='form' action="https://formsubmit.co/a116386e18fe6ceb8dbdace91dfd5807" method="POST">
         <h1> Inquire</h1>
