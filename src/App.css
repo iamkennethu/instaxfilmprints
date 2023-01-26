@@ -577,9 +577,10 @@ font-size: 2em;
 .sPage h5 {
 padding-top: 30px;
 font-family: 'Roboto', sans-serif;
-font-weight: 500;
+font-weight: 600;
 letter-spacing: 1px;
 word-spacing: 2px;
+font-size: .7em;
 
 }
 .sPage p {
@@ -696,8 +697,234 @@ font-weight: 400;
   100% { transform: translateY(0); }
 }
 
+.sPage3{
+  background-image: url(./images/webSO4.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  position: relative;
+  text-shadow: 0 0 5px rgba(0,0,0,0.5);
+  /* height: 700px; */
+  padding-bottom: 200px;
+}
+.sPage3 ol{
+  text-align: right;
+  font-family: 'Raleway', sans-serif;
+  color:#ffffff;
+  font-weight: 300;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  font-size: 1rem;
+  margin-right: 250px;
+  margin-top: 20px;
+}
+.sPage3 a{
+  color: rgb(255, 255, 255);
+}
+.sPage3 h1 {
+  font-family: 'Cormorant Garamond', serif;
+  text-align: left;
+  color:#ffffff;
+  margin-left: 180px;
+  padding-top: 20px;
+  font-weight: 300;
+  font-size: 3rem;
+}
+.sPage3 h3 {
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  color:#ffffff;
+  font-size: 1em;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  font-weight: 900;
+  margin-left: 180px;
+  padding-top: 220px;
+}
+.sPage3 h5 {
+  text-align: left;
+  font-family: 'Raleway', sans-serif;
+  color:#ffffff;
+  font-weight: 300;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  font-size: 1rem;
+  margin-left: 180px;
+  padding-top: 20px;
+}
 
 
+@media (max-width: 800px) {
+  .sPage3 h1 {
+    margin-left: 80px;
+  }
+  .sPage3 h3 {
+    margin-left: 80px;
+  }
+  .sPage3 h5 {
+    margin-right: 80px;
+  }
+}
+
+.sPageBg4 {
+  background-repeat: no-repeat center center fixed;
+  background-position-x: center;
+  /* background: url('./images/webHome3.png');  */
+  background-size: cover;
+  display: cover;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+}
+.sPageBg4 h5 {
+    padding-top: 40px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-size: .7em;
+}
+.sPageBgStyle4{
+padding-top: 40px;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+margin: 0 auto;
+padding-bottom: 60px;
+}
+.sPageBgTxt4{
+text-align: center;
+margin-left: 100px;
+}
+.sPageBgTxt4 h5 {
+  padding-bottom: 20px;
+}
+.sPageBgTxt4 h1{
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 400;
+}
+
+.sPageBgTxt4 p{
+padding-top: 15px;
+word-spacing: 1px;
+font-family: 'Cormorant Garamond', serif;
+/* letter-spacing: 1px; */
+}
+.sPageBgTxt4 hr {
+margin: auto;
+margin-top:20px ;
+width: 40%;
+height: .5px;
+border: 0;
+background-color: rgb(0, 0, 0);
+}
+@media (max-width: 800px) {
+.sPageBg4{
+  flex-direction: column;
+  align-items: center;
+}
+.sPageBgStyle4{
+  padding-top: 80px;
+  flex-direction: column;
+  align-items: center;
+}
+.sPageBgTxt4{
+  padding-top: 40px;
+  text-align: center;
+  margin: auto;
+}
+}
+
+
+
+
+.sPageBg5 {
+  background-repeat: no-repeat center center fixed;
+  background-position-x: center;
+  background-size: cover;
+  display: cover;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+.sPageBg5 h5 {
+  padding-top: 40px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+.sPageBgTxt5 {
+/* padding-top: 20px; */
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+margin: 0 auto;
+padding-bottom: 20px;
+}
+.sPageBgTxt5 h5 {
+  padding-bottom: 20px;
+  padding-top: 40px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-size: .7em;
+}
+.sPageBgStyle5 {
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  margin-left: 100px;
+}
+.sPageBgTxt5 hr {
+  margin: auto;
+  border: 1;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 40%;
+  height: .5px;
+  border: 0;
+  background-color: rgb(0, 0, 0);
+}
+.sPageBgTxt5 h1{
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 400;
+}
+.sPageBgTxt5 p {
+  font-family: 'Cormorant Garamond', serif;
+  word-spacing: 2px;
+  font-weight: 500;
+}
+@media (max-width: 800px) {
+  .sPageBg5{
+    grid-row: 1;
+    display: grid;
+    grid-template-rows: 1fr auto;
+  }
+  
+  .sPageBgTxt5{
+    padding-top: 10px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .sPageBgStyle5{
+    padding-top: 40px;
+    text-align: center;
+    margin: auto;
+    grid-row: 2;
+  }
+  .sPageBgTxt5 hr {
+    width: 60%;
+  }
+}
 
 
 
