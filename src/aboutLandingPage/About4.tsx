@@ -14,7 +14,7 @@ const About4 = () => {
         <br/> owner?, Her work has been published in 
         <br/> in instagram from philippines to canada. 
         <br/> want to get your own character done with knitly?</div>
-         <br/><br/>
+         <br/>
         <FiFeather size='1em'/></p>
       <div className='aPageBgStyle4'>
           <img src={a2Sample2} alt=''/>
