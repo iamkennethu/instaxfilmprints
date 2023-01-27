@@ -8,13 +8,13 @@ const About4 = () => {
       <div className='sPageBgTxt5'>
       <p>
       <h5> NO 2 </h5>
-        <h1> We love <br/> photographing <br/> portraits on film.</h1>
+        <h1> Giving our <br/> customers memorable <br/> experience.</h1>
         <hr/>
         <div>Did you know that Ashley is also a knitly done
         <br/> owner?, Her work has been published in 
         <br/> in instagram from philippines to canada. 
         <br/> want to get your own character done with knitly?</div>
-         <br/><br/>
+         <br/>
         <FiFeather size='1em'/></p>
       <div className='sPageBgStyle5'>
           <img src={a2Sample2} alt=''/>
