@@ -16,7 +16,7 @@ function SpecialOffer2() {
         <br/>
           <a> <img id='image1Promo' src={P1} alt=''/> </a>
           <a> <img id='image2Promo'src={P2} alt=''/></a>
-          <a href="/SpecialOffer/Offer3"> <img id='image3Promo' src={P3} alt=''/></a>
+          <a> <img id='image3Promo' src={P3} alt=''/></a>
           <br/>
           <a> <img id='image4Promo' src={P4} alt=''/> </a>
           <a> <img id='image5Promo' src={P5} alt=''/></a>
