@@ -10,11 +10,10 @@ const About5 = () => {
       <div className='sPageBgTxt4'>
           <h5> NO 3 </h5>
           <h1> Customizing instax <br/> prints and details. <hr /></h1>
-          <p> Designer fashion has always played a key role in our
-              <br/> editorial styling and we've been fortunate to style
-              <br/> dozens of polaroids - the highest number of 
-              <br/> made in our roster. This one polaroid films
-              <br/> memories was a standout.
+          <p> Here in Instax Film Prints, we believe that every print
+              <br/> deserves their custom frames!
+              <br/> No two acrylic frame designs are 
+              <br/> the same to match your photos and personality!
               <br/>
               <br/> <FiFeather size='1em'/>
               </p>

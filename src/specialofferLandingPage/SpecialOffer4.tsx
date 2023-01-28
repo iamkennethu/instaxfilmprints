@@ -12,11 +12,10 @@ const About3 = () => {
           <h5> NO 1 </h5>
           <h1> Giving vintage <br/> details.</h1>
           <hr />
-          <p> We've perfected consistent and eye-catching
-              <br/> detail styling techniques and have taught the
-              <br/> Instax Films method to polaroid industry
-              <br/> professionals at workshops from Philippines.
-              <br/> Tangible details preserve your memories.
+          <p> We print in films because it doesn't fade!
+              <br/> Instax films are the perfect medium to preserve
+              <br/> your most beloved photos for
+              <br/> that nostalgia and old school feels.
               <br/>
               <br/> <FiFeather size='1em'/>
               </p>

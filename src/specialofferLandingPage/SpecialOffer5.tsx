@@ -10,10 +10,12 @@ const About4 = () => {
       <h5> NO 2 </h5>
         <h1> Giving our <br/> customers memorable <br/> experience.</h1>
         <hr/>
-        <div>Did you know that Ashley is also a knitly done
-        <br/> owner?, Her work has been published in 
-        <br/> in instagram from philippines to canada. 
-        <br/> want to get your own character done with knitly?</div>
+        <div>Every new film is a unique memory.
+        <br/> For being almost 3 years in the industry,
+        <br/> we've printed over a thousand photos 
+        <br/> that our customers delighted. Nothing beats seeing
+        <br/> your favorite photos in display!
+        </div>
          <br/>
         <FiFeather size='1em'/></p>
       <div className='sPageBgStyle5'>
