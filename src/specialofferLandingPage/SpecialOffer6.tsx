@@ -9,7 +9,7 @@ const About5 = () => {
           <img src={a2Sample3} alt=''/>
       <div className='sPageBgTxt4'>
           <h5> NO 3 </h5>
-          <h1> Of all the instax <br/> prints, this one was our <br/> favorite. <hr /></h1>
+          <h1> Customizing instax <br/> prints and details. <hr /></h1>
           <p> Designer fashion has always played a key role in our
               <br/> editorial styling and we've been fortunate to style
               <br/> dozens of polaroids - the highest number of 

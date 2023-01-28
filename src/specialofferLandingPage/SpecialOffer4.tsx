@@ -10,7 +10,7 @@ const About3 = () => {
           <img src={a2Sample1} alt=''/>
       <div className='sPageBgTxt4'>
           <h5> NO 1 </h5>
-          <h1> We value <br/> minimal details.</h1>
+          <h1> Giving vintage <br/> details.</h1>
           <hr />
           <p> We've perfected consistent and eye-catching
               <br/> detail styling techniques and have taught the

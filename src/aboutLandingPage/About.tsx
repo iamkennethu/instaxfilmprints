@@ -21,12 +21,11 @@ function About() {
     <div className='aPageBgStyle'>
           <p> <img src={aPage1Sample1} alt=''/>
               <h1> We believe that <em>detail-driven <br/> styling</em> establishes the <br/> foundation for <  em>magical moments.</em> </h1>
-              <br/> At East Made Co, we believe in the inviting, elegant warmth 
-              <br/> of a wedding so personally tailored to you that your 
-              <br/> wedding day memories will be recounted for generations.
-              <br/> Our favorite gatherings are replete with laughter,
-              <br/> effusive tears, memorable music, and delectable cuisine, 
-              <br/> surrounded by your dearest family and friends.
+              <br/> At Instax Film Prints, we believe in the memorables 
+              <br/> of a films so personally designed to you that your 
+              <br/> memorable day makes recounted for generations.
+              <br/> Our favorite films are vintage with qr,
+              <br/> effusive tears, memorable music.
           </p>
     <div className='aPageStyle2'>
               <p> Owner and Creative Director Ashley Gwen Martin
