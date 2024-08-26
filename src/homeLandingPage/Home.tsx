@@ -18,7 +18,7 @@ function Home() {
           <source src={require('../videos/videoBg.mp4')} type='video/mp4' /></video>
         <div className='fPage'>
           <hr/>
-          <h5> WELCOME TO INSTAX FILM PRINTS PH. </h5>
+          <h5> WELCOME TO INSTAX FILM PRINTS </h5>
           <h1><em>FILM PRINTS <br /> WILL NEVER FADE.</em> </h1>
           <p> Keep your most cherished photos on Polaroid films <br /> for that nostalgic feeling. 
           <br />

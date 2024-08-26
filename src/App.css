@@ -48,9 +48,8 @@
   font-weight: 500;
 }
 .fPage img {
-  transition: all ease 0.2s;
+  transition: all ease 0.4s;
 }
-
 .fPageBg {
     background-repeat: no-repeat center center fixed;
     background-position-x: center;
@@ -268,8 +267,14 @@
     font-size: .8em;
   }
 }
+.pImage {
+  transition: transform 0.3s ease, z-index 0.3s ease;
+  position: relative;
+}
 .pImage:hover {
+  position: sticky;
   transform: scale(1.2);
+  z-index: 1;
 }
 .iContainer {
   display: flex;
@@ -547,7 +552,6 @@ padding-bottom: 20px;
   background-repeat: no-repeat;
   /* background-position-x: center; */
   object-fit: cover;
-  max-height: 620px;
   height: 620px;
 }
 
@@ -596,74 +600,92 @@ font-weight: 400;
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: center;
-  padding-bottom: 60px;
+  padding-bottom: 80px;
 }
 
 .sPage2 h1 {
   font-family: 'Cormorant Garamond', serif;
-  text-align: left;
+  text-align: center;
   color:#000000;
-  margin-left: 280px;
-  padding-top: 100px;
+  /* margin-left: 360px; */
+  padding-top: 60px;
   font-weight: 400;
   font-size: 2.8rem;
 }
 #image1Promo {
-  transition: all ease 0.2s;
+  position: absolute;
+  transition: transform 0.3s ease, z-index 0.3s ease;
+  overflow: hidden;
+  position: relative;
 }
 #image1Promo:hover{
-  transition: ease-in 0.2s;
-  transform: scale(1.2);
+  transform: scale(1.1); /* Adjust the scale factor for desired zoom level */
+  z-index: 1;
   content: url('./images/P1B1.png');
 }
 
 
 #image2Promo {
-  transition: all ease 0.2s;
+  position: absolute;
+  transition: transform 0.3s ease, z-index 0.3s ease;
+  overflow: hidden;
+  position: relative;
 }
 #image2Promo:hover{
-  transition: ease-in 0.2s;
-  transform: scale(1.2);
+  transform: scale(1.1); /* Adjust the scale factor for desired zoom level */
+  z-index: 1;
   content: url('./images/P2B2.png');
 }
 
 
 #image3Promo{
-  transition: all ease 0.2s;
+  position: absolute;
+  transition: transform 0.3s ease, z-index 0.3s ease;
+  overflow: hidden;
+  position: relative;
 }
 #image3Promo:hover{
-  transition: ease-in 0.2s;
-  transform: scale(1.2);
+  transform: scale(1.1); /* Adjust the scale factor for desired zoom level */
+  z-index: 1;
   content: url('./images/P3B3.png');
 }
 
 
 #image4Promo{
-  transition: all ease 0.2s;
+  position: absolute;
+  transition: transform 0.3s ease, z-index 0.3s ease;
+  overflow: hidden;
+  position: relative;
 }
 #image4Promo:hover{
-  transition: ease-in 0.2s;
-  transform: scale(1.2);
+  transform: scale(1.1); /* Adjust the scale factor for desired zoom level */
+  z-index: 1;
   content: url('./images/P4B4.png');
 }
 
 
 #image5Promo{
-  transition: all ease 0.2s;
+  position: absolute;
+  transition: transform 0.3s ease, z-index 0.3s ease;
+  overflow: hidden;
+  position: relative;
 }
 #image5Promo:hover{
-  transition: ease-in 0.2s;
-  transform: scale(1.2);
+  transform: scale(1.1); /* Adjust the scale factor for desired zoom level */
+  z-index: 1;
   content: url('./images/P5B5.png');
 }
 
 
 #image6Promo{
-  transition: all ease 0.2s;
+  position: absolute;
+  transition: transform 0.3s ease, z-index 0.3s ease;
+  overflow: hidden;
+  position: relative;
 }
 #image6Promo:hover{
-  transition: ease-in 0.2s;
-  transform: scale(1.2);
+  transform: scale(1.1); /* Adjust the scale factor for desired zoom level */
+  z-index: 1;
   content: url('./images/P6B6.png');
 }
 /* .sPage2 img {
